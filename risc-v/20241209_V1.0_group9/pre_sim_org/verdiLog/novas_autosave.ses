@@ -18,11 +18,16 @@ AnnotationShow = 0
 Console = FALSE
 powerDumped = 0
 [hb]
-viewport = 67 27 2097 1540 0 0 189 2095
+postSimFile = /home/huzi/Soc/risc-v/20241209_V1.0_group9/pre_sim_org/e203.fsdb
+syncTime = 0
+viewport = 134 83 3704 1821 0 0 1072 2095
+activeNode = "sirv_gnrl_ltch"
+activeScope = "sirv_gnrl_ltch"
+activeFile = "./rtl/e203/general/sirv_gnrl_dffs.v"
 interactiveMode = False
 viewType = Source
 simulatorMode = False
-sourceBeginLine = 0
+sourceBeginLine = 239
 baMode = False
 srcLineNum = True
 AutoWrap = True
@@ -39,5 +44,38 @@ DnDtraceCrossHierOnly = True
 traceIncTopPort = False
 leadingZero = False
 signalPane = False
+Scope1 = "sirv_gnrl_ltch"
 sdfCheckUndef = FALSE
 simFlow = FALSE
+[hb.design]
+importCmd = "-dbdir" "/home/huzi/Soc/risc-v/20241209_V1.0_group9/pre_sim_org/simv.daidir" 
+invokeDir = /home/huzi/Soc/risc-v/20241209_V1.0_group9/pre_sim_org
+[hb.sourceTab.1]
+scope = sirv_gnrl_ltch
+File = /home/huzi/Soc/risc-v/20241209_V1.0_group9/pre_sim_org/rtl/e203/general/sirv_gnrl_dffs.v
+Line = 240
+[nMemoryManager]
+WaveformFile = /home/huzi/Soc/risc-v/20241209_V1.0_group9/pre_sim_org/e203.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 27 3704 1072 327 65
+primaryWindow = TRUE
+SessionFile = /home/huzi/Soc/risc-v/20241209_V1.0_group9/pre_sim_org/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

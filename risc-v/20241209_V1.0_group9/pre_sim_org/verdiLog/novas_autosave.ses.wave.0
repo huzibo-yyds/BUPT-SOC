@@ -1,0 +1,117 @@
+Magic 271485
+Revision Verdi_O-2018.09-SP2
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 27 3704 1072 327 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/huzi/Soc/risc-v/20241209_V1.0_group9/pre_sim_org/e203.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 97665337.750071
+cursor 0.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 3
+; marker line index
+markerPos 21
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "sirv_gnrl_ltch"
+addSubGroup "sirv_gnrl_icb32towishb8"
+activeDirFile "" "/home/huzi/Soc/risc-v/20241209_V1.0_group9/pre_sim_org/e203.fsdb"
+addSignal -h 15 /sirv_gnrl_icb32towishb8/i_icb_cmd_valid
+addSignal -h 15 -holdScope i_icb_cmd_ready
+addSignal -h 15 -holdScope i_icb_cmd_read[0:0]
+addSignal -h 15 -holdScope i_icb_cmd_addr[31:0]
+addSignal -h 15 -holdScope i_icb_cmd_wdata[31:0]
+addSignal -h 15 -holdScope i_icb_cmd_wmask[3:0]
+addSignal -h 15 -holdScope i_icb_cmd_size[1:0]
+addSignal -h 15 -holdScope i_icb_rsp_valid
+addSignal -h 15 -holdScope i_icb_rsp_ready
+addSignal -h 15 -holdScope i_icb_rsp_err
+addSignal -h 15 -holdScope i_icb_rsp_rdata[31:0]
+addSignal -h 15 -holdScope wb_adr[31:0]
+addSignal -h 15 -holdScope wb_dat_w[7:0]
+addSignal -h 15 -holdScope wb_dat_r[7:0]
+addSignal -h 15 -holdScope wb_we
+addSignal -h 15 -holdScope wb_stb
+addSignal -h 15 -holdScope wb_cyc
+addSignal -h 15 -holdScope wb_ack
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope rst_n
+endSubGroup "sirv_gnrl_icb32towishb8"
+addSignal -h 15 /sirv_gnrl_ltch/lden
+addSignal -h 15 -holdScope dnxt[31:0]
+addSignal -h 15 -holdScope qout[31:0]
+addGroup "u_e203_soc_top"
+addSignal -h 15 /tb_top/u_e203_soc_top/hfextclk
+addSignal -h 15 -holdScope hfxoscen
+addSignal -h 15 -holdScope lfextclk
+addSignal -h 15 -holdScope lfxoscen
+addSignal -h 15 -holdScope io_pads_jtag_TCK_i_ival
+addSignal -h 15 -holdScope io_pads_jtag_TMS_i_ival
+addSignal -h 15 -holdScope io_pads_jtag_TDI_i_ival
+addSignal -h 15 -holdScope io_pads_jtag_TDO_o_oval
+addSignal -h 15 -holdScope io_pads_jtag_TDO_o_oe
+addSignal -h 15 -holdScope io_pads_gpioA_i_ival[31:0]
+addSignal -h 15 -holdScope io_pads_gpioA_o_oval[31:0]
+addSignal -h 15 -holdScope io_pads_gpioA_o_oe[31:0]
+addSignal -h 15 -holdScope io_pads_gpioB_i_ival[31:0]
+addSignal -h 15 -holdScope io_pads_gpioB_o_oval[31:0]
+addSignal -h 15 -holdScope io_pads_gpioB_o_oe[31:0]
+addSignal -h 15 -holdScope io_pads_qspi0_sck_o_oval
+addSignal -h 15 -holdScope io_pads_qspi0_cs_0_o_oval
+addSignal -h 15 -holdScope io_pads_qspi0_dq_0_i_ival
+addSignal -h 15 -holdScope io_pads_qspi0_dq_0_o_oval
+addSignal -h 15 -holdScope io_pads_qspi0_dq_0_o_oe
+addSignal -h 15 -holdScope io_pads_qspi0_dq_1_i_ival
+addSignal -h 15 -holdScope io_pads_qspi0_dq_1_o_oval
+addSignal -h 15 -holdScope io_pads_qspi0_dq_1_o_oe
+addSignal -h 15 -holdScope io_pads_qspi0_dq_2_i_ival
+addSignal -h 15 -holdScope io_pads_qspi0_dq_2_o_oval
+addSignal -h 15 -holdScope io_pads_qspi0_dq_2_o_oe
+addSignal -h 15 -holdScope io_pads_qspi0_dq_3_i_ival
+addSignal -h 15 -holdScope io_pads_qspi0_dq_3_o_oval
+addSignal -h 15 -holdScope io_pads_qspi0_dq_3_o_oe
+addSignal -h 15 -holdScope io_pads_aon_erst_n_i_ival
+addSignal -h 15 -holdScope io_pads_dbgmode0_n_i_ival
+addSignal -h 15 -holdScope io_pads_dbgmode1_n_i_ival
+addSignal -h 15 -holdScope io_pads_dbgmode2_n_i_ival
+addSignal -h 15 -holdScope io_pads_bootrom_n_i_ival
+addSignal -h 15 -holdScope io_pads_aon_pmu_dwakeup_n_i_ival
+addSignal -h 15 -holdScope io_pads_aon_pmu_padrst_o_oval
+addSignal -h 15 -holdScope io_pads_aon_pmu_vddpaden_o_oval
+addGroup "G3"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

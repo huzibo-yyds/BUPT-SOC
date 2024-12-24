@@ -162,3 +162,4 @@ srcHBSelect "tb_top" -win $_nTrace1
 srcHBSelect "tb_top.u_e203_soc_top" -win $_nTrace1
 srcHBSelect "sirv_gnrl_ltch" -win $_nTrace1
 verdiDockWidgetSetCurTab -dock widgetDock_<Decl._Tree>
+debExit
