@@ -1,0 +1,270 @@
+7        
+0 e203_defines.v
+0 /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/etc/systemverilog/e203_defines.v
+0 config.v
+0 /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/etc/systemverilog/config.v
+0 i2c_master_defines.v
+0 /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/etc/systemverilog/i2c_master_defines.v
+0 rtl/e203/core/i2c_master_defines.v
+43
++incdir+rtl/e203/core
++incdir+rtl/e203/perips/apb_i2c
++itf+/home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcsdp_lite.tab
++maxdelays
++neg_tchk
++nospecify
++notimingcheck
++v2k
++vc
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags=-L/usr/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -Wl,--no-as-needed -rdynamic
+-Mobjects= /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvirsim.so /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib/liberrorinf.so /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/home/huzi/Env/verdi/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/include
+-P
+-Xufe=2steps
+-Xvcs_run_simv=1
+-debug_access+all
+-f e203_filelist.f
+-fsdb
+-full64
+-gen_obj
+-gui
+-kdb
+-picarchive
+-sverilog
+-timescale=1ns/1ps
+-ucli
+/home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/bin/vcs1
+/home/huzi/Env/verdi/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
+65
+sysc_uni_pwd=/home/huzi/Soc/risc-v/20241209_V1.0_group9/pre_sim_org
+XMODIFIERS=@im=ibus
+XDG_VTNR=2
+XDG_SESSION_TYPE=x11
+XDG_SESSION_ID=2
+XDG_SESSION_DESKTOP=ubuntu
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+WINDOWPATH=2
+VTE_VERSION=5202
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/huzi/Env/verdi/verdi/Verdi_O-2018.09-SP2
+VERDI_DIR=/home/huzi/Env/verdi/verdi/Verdi_O-2018.09-SP2
+VCS_TARGET_ARCH=amd64
+VCS_MODE_FLAG=64
+VCS_HOME=/home/huzi/Env/vcs2018/vcs/O-2018.09-SP2
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+USERNAME=huzi
+UNAME=/bin/uname
+TOOL_HOME=/home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64
+TEXTDOMAINDIR=/usr/share/locale/
+TEXTDOMAIN=im-config
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_PID=1617
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SNPS_VCS_INTERNAL_UBUNTU_PRE_LDFLAGS= -no-pie  -Wl,--no-as-needed 
+SNPS_VCS_INTERNAL_LINKER_NEEDS_NO_AS_NEEDED=1
+SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1522,unix/ubuntu:/tmp/.ICE-unix/1522
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=xim
+QT_ACCESSIBILITY=1
+QT4_IM_MODULE=xim
+OVA_UUM=0
+NPI_PLATFORM=LINUX64_GNU_472
+NOVAS_INST_DIR=/home/huzi/Env/verdi/verdi/Verdi_O-2018.09-SP2
+NOVAS_HOME=/home/huzi/Env/verdi/verdi/Verdi_O-2018.09-SP2
+LIBRARY_PATH=/usr/lib/x86_64-linux-gnu
+LESSOPEN=| /usr/bin/lesspipe %s
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_ALL=C
+IM_CONFIG_PHASE=2
+GTK_MODULES=gail:atk-bridge
+GTK_IM_MODULE=ibus
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+GNOME_TERMINAL_SERVICE=:1.68
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/f8384c74_0a5f_4ed3_8512_935dae3a06bf
+GNOME_SHELL_SESSION_MODE=ubuntu
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+GJS_DEBUG_OUTPUT=stderr
+GDMSESSION=ubuntu
+DVE_HOME=/home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/gui/dve
+DESKTOP_SESSION=ubuntu
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+CPATH=/usr/include/x86_64-linux-gnu
+COLORTERM=truecolor
+CLUTTER_IM_MODULE=xim
+0
+143
+1735028985 rtl/e203/perips/apb_i2c/i2c_master_defines.v
+1735028985 rtl/e203/core/config.v
+1735028985 rtl/e203/core/e203_defines.v
+1735031496 ./tb/tb_top.v
+1735028985 ./rtl/e203/subsys/e203_subsys_top.v
+1735028985 ./rtl/e203/subsys/e203_subsys_pll.v
+1735028985 ./rtl/e203/subsys/e203_subsys_pllclkdiv.v
+1735028985 ./rtl/e203/subsys/e203_subsys_plic.v
+1735028985 ./rtl/e203/subsys/e203_subsys_perips.v
+1735028985 ./rtl/e203/subsys/e203_subsys_nice_core.v
+1735028985 ./rtl/e203/subsys/e203_subsys_mems.v
+1735028985 ./rtl/e203/subsys/e203_subsys_main.v
+1735028985 ./rtl/e203/subsys/e203_subsys_hclkgen.v
+1735028985 ./rtl/e203/subsys/e203_subsys_hclkgen_rstsync.v
+1735028985 ./rtl/e203/subsys/e203_subsys_gfcm.v
+1735028985 ./rtl/e203/subsys/e203_subsys_clint.v
+1735028985 ./rtl/e203/soc/e203_soc_top.v
+1735028985 ./rtl/e203/perips/apb_uart/uart_tx.v
+1735028985 ./rtl/e203/perips/apb_uart/uart_rx.v
+1735028985 ./rtl/e203/perips/apb_uart/uart_interrupt.v
+1735028985 ./rtl/e203/perips/apb_uart/io_generic_fifo.v
+1735028985 ./rtl/e203/perips/apb_uart/apb_uart.v
+1735028985 ./rtl/e203/perips/apb_spi_master/spi_master_tx.v
+1735028985 ./rtl/e203/perips/apb_spi_master/spi_master_rx.v
+1735028985 ./rtl/e203/perips/apb_spi_master/spi_master_fifo.v
+1735028985 ./rtl/e203/perips/apb_spi_master/spi_master_controller.v
+1735028985 ./rtl/e203/perips/apb_spi_master/spi_master_clkgen.v
+1735028985 ./rtl/e203/perips/apb_spi_master/spi_master_apb_if.v
+1735028985 ./rtl/e203/perips/apb_spi_master/apb_spi_master.v
+1735028985 ./rtl/e203/perips/apb_i2c/i2c_master_defines.v
+1735028985 ./rtl/e203/perips/apb_i2c/i2c_master_byte_ctrl.v
+1735028985 ./rtl/e203/perips/apb_i2c/i2c_master_bit_ctrl.v
+1735028985 ./rtl/e203/perips/apb_i2c/apb_i2c.v
+1735028985 ./rtl/e203/perips/apb_gpio/apb_gpio.v
+1735028985 ./rtl/e203/perips/apb_adv_timer/up_down_counter.v
+1735028985 ./rtl/e203/perips/apb_adv_timer/timer_module.v
+1735028985 ./rtl/e203/perips/apb_adv_timer/timer_cntrl.v
+1735028985 ./rtl/e203/perips/apb_adv_timer/prescaler.v
+1735028985 ./rtl/e203/perips/apb_adv_timer/input_stage.v
+1735028985 ./rtl/e203/perips/apb_adv_timer/comparator.v
+1735028985 ./rtl/e203/perips/apb_adv_timer/apb_adv_timer.v
+1735028985 ./rtl/e203/perips/apb_adv_timer/adv_timer_apb_if.v
+1735028985 ./rtl/e203/perips/sirv_wdog.v
+1735028985 ./rtl/e203/perips/sirv_tlwidthwidget_qspi.v
+1735028985 ./rtl/e203/perips/sirv_tl_repeater_5.v
+1735028985 ./rtl/e203/perips/sirv_tlfragmenter_qspi_1.v
+1735028985 ./rtl/e203/perips/sirv_spi_flashmap.v
+1735028985 ./rtl/e203/perips/sirv_rtc.v
+1735028985 ./rtl/e203/perips/sirv_ResetCatchAndSync.v
+1735028985 ./rtl/e203/perips/sirv_ResetCatchAndSync_2.v
+1735028985 ./rtl/e203/perips/sirv_repeater_6.v
+1735028985 ./rtl/e203/perips/sirv_queue.v
+1735028985 ./rtl/e203/perips/sirv_queue_1.v
+1735028985 ./rtl/e203/perips/sirv_qspi_physical.v
+1735028985 ./rtl/e203/perips/sirv_qspi_media.v
+1735028985 ./rtl/e203/perips/sirv_qspi_fifo.v
+1735028985 ./rtl/e203/perips/sirv_qspi_arbiter.v
+1735028985 ./rtl/e203/perips/sirv_pmu.v
+1735028985 ./rtl/e203/perips/sirv_pmu_core.v
+1735028985 ./rtl/e203/perips/sirv_plic_top.v
+1735028985 ./rtl/e203/perips/sirv_plic_man.v
+1735028985 ./rtl/e203/perips/sirv_LevelGateway.v
+1735028985 ./rtl/e203/perips/sirv_jtaggpioport.v
+1735028985 ./rtl/e203/perips/sirv_hclkgen_regs.v
+1735028985 ./rtl/e203/perips/sirv_flash_qspi.v
+1735028985 ./rtl/e203/perips/sirv_flash_qspi_top.v
+1735028985 ./rtl/e203/perips/sirv_expl_axi_slv.v
+1735028985 ./rtl/e203/perips/sirv_DeglitchShiftRegister.v
+1735028985 ./rtl/e203/perips/sirv_clint.v
+1735028985 ./rtl/e203/perips/sirv_clint_top.v
+1735028985 ./rtl/e203/perips/sirv_AsyncResetRegVec.v
+1735028985 ./rtl/e203/perips/sirv_AsyncResetRegVec_36.v
+1735028985 ./rtl/e203/perips/sirv_AsyncResetRegVec_1.v
+1735028985 ./rtl/e203/perips/sirv_AsyncResetRegVec_129.v
+1735028985 ./rtl/e203/perips/sirv_AsyncResetReg.v
+1735028985 ./rtl/e203/perips/sirv_aon_wrapper.v
+1735028985 ./rtl/e203/perips/sirv_aon.v
+1735028985 ./rtl/e203/perips/sirv_aon_top.v
+1735028985 ./rtl/e203/perips/sirv_aon_porrst.v
+1735028985 ./rtl/e203/perips/sirv_aon_lclkgen_regs.v
+1735028985 ./rtl/e203/mems/sirv_mrom.v
+1735028985 ./rtl/e203/mems/sirv_mrom_top.v
+1735028985 ./rtl/e203/general/sirv_sram_icb_ctrl.v
+1735028985 ./rtl/e203/general/sirv_sim_ram.v
+1735028985 ./rtl/e203/general/sirv_gnrl_xchecker.v
+1735028985 ./rtl/e203/general/sirv_gnrl_ram.v
+1735028985 ./rtl/e203/general/sirv_gnrl_icbs.v
+1735028985 ./rtl/e203/general/sirv_gnrl_dffs.v
+1735028985 ./rtl/e203/general/sirv_gnrl_bufs.v
+1735028985 ./rtl/e203/general/sirv_1cyc_sram_ctrl.v
+1735028985 ./rtl/e203/fab/sirv_icb1to8_bus.v
+1735028985 ./rtl/e203/fab/sirv_icb1to2_bus.v
+1735028985 ./rtl/e203/fab/sirv_icb1to16_bus.v
+1735028985 ./rtl/e203/debug/sirv_jtag_dtm.v
+1735028985 ./rtl/e203/debug/sirv_debug_rom.v
+1735028985 ./rtl/e203/debug/sirv_debug_ram.v
+1735028985 ./rtl/e203/debug/sirv_debug_module.v
+1735028985 ./rtl/e203/debug/sirv_debug_csr.v
+1735028985 ./rtl/e203/core/e203_srams.v
+1735028985 ./rtl/e203/core/e203_reset_ctrl.v
+1735028985 ./rtl/e203/core/e203_lsu.v
+1735028985 ./rtl/e203/core/e203_lsu_ctrl.v
+1735028985 ./rtl/e203/core/e203_itcm_ram.v
+1735028985 ./rtl/e203/core/e203_itcm_ctrl.v
+1735028985 ./rtl/e203/core/e203_irq_sync.v
+1735028985 ./rtl/e203/core/e203_ifu.v
+1735028985 ./rtl/e203/core/e203_ifu_minidec.v
+1735028985 ./rtl/e203/core/e203_ifu_litebpu.v
+1735028985 ./rtl/e203/core/e203_ifu_ift2icb.v
+1735028985 ./rtl/e203/core/e203_ifu_ifetch.v
+1735028985 ./rtl/e203/core/e203_exu_wbck.v
+1735028985 ./rtl/e203/core/e203_exu.v
+1735028985 ./rtl/e203/core/e203_exu_regfile.v
+1735028985 ./rtl/e203/core/e203_exu_oitf.v
+1735028985 ./rtl/e203/core/e203_exu_nice.v
+1735028985 ./rtl/e203/core/e203_exu_longpwbck.v
+1735028985 ./rtl/e203/core/e203_exu_excp.v
+1735028985 ./rtl/e203/core/e203_exu_disp.v
+1735028985 ./rtl/e203/core/e203_exu_decode.v
+1735028985 ./rtl/e203/core/e203_exu_csr.v
+1735028985 ./rtl/e203/core/e203_exu_commit.v
+1735028985 ./rtl/e203/core/e203_exu_branchslv.v
+1735028985 ./rtl/e203/core/e203_exu_alu.v
+1735028985 ./rtl/e203/core/e203_exu_alu_rglr.v
+1735028985 ./rtl/e203/core/e203_exu_alu_muldiv.v
+1735028985 ./rtl/e203/core/e203_exu_alu_lsuagu.v
+1735028985 ./rtl/e203/core/e203_exu_alu_dpath.v
+1735028985 ./rtl/e203/core/e203_exu_alu_csrctrl.v
+1735028985 ./rtl/e203/core/e203_exu_alu_bjp.v
+1735028985 ./rtl/e203/core/e203_extend_csr.v
+1735028985 ./rtl/e203/core/e203_dtcm_ram.v
+1735028985 ./rtl/e203/core/e203_dtcm_ctrl.v
+1735028985 ./rtl/e203/core/e203_defines.v
+1735028985 ./rtl/e203/core/e203_cpu.v
+1735028985 ./rtl/e203/core/e203_cpu_top.v
+1735028985 ./rtl/e203/core/e203_core.v
+1735028985 ./rtl/e203/core/e203_clkgate.v
+1735028985 ./rtl/e203/core/e203_clk_ctrl.v
+1735028985 ./rtl/e203/core/e203_biu.v
+1735028985 ./rtl/e203/core/config.v
+1735029110 e203_filelist.f
+1550753332 /home/huzi/Env/verdi/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
+1551421246 /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcsdp_lite.tab
+4
+1551422344 /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvirsim.so
+1551421792 /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib/liberrorinf.so
+1551421768 /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so
+1551421789 /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvfs.so
+1735042882 simv.daidir
+-1 partitionlib
