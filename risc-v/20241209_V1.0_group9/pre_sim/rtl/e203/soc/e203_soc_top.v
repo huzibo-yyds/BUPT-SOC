@@ -15,7 +15,8 @@
  */                                                                      
                                                                          
                                                                          
-                                                                         
+//📍 RISC-V代码的最顶层是 ==e203_soc_top==
+
 module e203_soc_top(
 
     // This clock should comes from the crystal pad generated high speed clock (16MHz)
