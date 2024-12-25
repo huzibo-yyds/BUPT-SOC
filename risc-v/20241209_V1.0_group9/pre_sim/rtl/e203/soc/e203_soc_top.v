@@ -85,7 +85,10 @@ module e203_soc_top(
 
       // PMU output is just output without enable
   output io_pads_aon_pmu_padrst_o_oval,
-  output io_pads_aon_pmu_vddpaden_o_oval 
+  output io_pads_aon_pmu_vddpaden_o_oval,
+
+  //test_mode
+  output test_mode
 );
 
 
@@ -205,7 +208,7 @@ module e203_soc_top(
   .io_pads_jtag_TRST_n_o_pue  (),
   .io_pads_jtag_TRST_n_o_ds   (),
 
-  .test_mode(1'b0),
+  .test_mode(test_mode),
   .test_iso_override(1'b0),
 
   .io_pads_gpioA_i_ival       (io_pads_gpioA_i_ival),

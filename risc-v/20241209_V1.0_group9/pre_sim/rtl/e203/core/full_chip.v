@@ -40,7 +40,10 @@ module full_chip(
     input  io_pads_aon_pmu_dwakeup_n_i_ival,
     // PMU 输出，无使能
     output io_pads_aon_pmu_padrst_o_oval,
-    output io_pads_aon_pmu_vddpaden_o_oval 
+    output io_pads_aon_pmu_vddpaden_o_oval,
+
+    // Test mode 输入，带下拉
+    input test_mode
 );
 
     wire hfextclk_pin;
@@ -80,6 +83,7 @@ module full_chip(
     wire io_pads_aon_pmu_dwakeup_n_i_ival_pin;
     wire io_pads_aon_pmu_padrst_o_oval_pin;
     wire io_pads_aon_pmu_vddpaden_o_oval_pin;
+    wire test_mode_pin;
 
     ///////////////////////////////////////////
     ///////// 实例化 e203_soc_top 模块 /////////
@@ -121,7 +125,8 @@ module full_chip(
         .io_pads_bootrom_n_i_ival           (io_pads_bootrom_n_i_ival_pin),
         .io_pads_aon_pmu_dwakeup_n_i_ival   (io_pads_aon_pmu_dwakeup_n_i_ival_pin),
         .io_pads_aon_pmu_padrst_o_oval      (io_pads_aon_pmu_padrst_o_oval_pin),
-        .io_pads_aon_pmu_vddpaden_o_oval    (io_pads_aon_pmu_vddpaden_o_oval_pin)
+        .io_pads_aon_pmu_vddpaden_o_oval    (io_pads_aon_pmu_vddpaden_o_oval_pin),
+        .test_mode                          (test_mode_pin)
     );
 
     ////////////////////////////////
@@ -290,6 +295,12 @@ module full_chip(
     PO16 u_pad_io_pads_aon_pmu_vddpaden_o_oval (
         .I(io_pads_aon_pmu_vddpaden_o_oval_pin),
         .PAD(io_pads_aon_pmu_vddpaden_o_oval)
+    );
+
+    // 实例化 test_mode
+    PID u_pad_test_mode (
+        .PAD(test_mode),
+        .C(test_mode_pin)
     );
 
 endmodule
