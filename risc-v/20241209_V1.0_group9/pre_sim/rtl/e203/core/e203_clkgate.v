@@ -32,6 +32,16 @@ module e203_clkgate (
   output  clk_out
 );
 
+  wire    enb;
+  assign  enb = (clock_en | test_mode);
+  CLKLANQUHDV2 latch (
+    .CK (clk_in ),
+    .E  (enb    ),
+    .TE (1'b0   ),
+    .Q  (clk_out)
+  );
+
+/*
 `ifdef FPGA_SOURCE//{
     // In the FPGA, the clock gating is just pass through
     assign clk_out = clk_in;
@@ -48,6 +58,7 @@ always@(*)
 assign clk_out = enb & clk_in;
 
 `endif//}
+*/
 
 endmodule 
 

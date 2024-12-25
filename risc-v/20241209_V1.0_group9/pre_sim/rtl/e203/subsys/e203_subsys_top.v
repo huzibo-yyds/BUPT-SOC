@@ -28,6 +28,10 @@
 
 `include "e203_defines.v"
 
+
+// 📍e203_subsys_top
+// 从e203_subsys_top到e203_soc_top，并不是所有端口都引出芯片
+
 module e203_subsys_top(
   // This clock should comes from the crystal pad generated high speed clock (16MHz)
   input  hfextclk,

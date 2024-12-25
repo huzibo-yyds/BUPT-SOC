@@ -107,7 +107,14 @@ module e203_subsys_hclkgen(
     .clkout  (gfcm_clk)
   );
 
-  assign hfclk = test_mode ? hfextclk : gfcm_clk;
+  // assign hfclk = test_mode ? hfextclk : gfcm_clk;
+  // 将时钟2选1操作改为用CLKMUX2UHDV4代替。
+  CLKMUX2UHDV4 u_CLKMUX2(
+    .Z  (hfclk    ),
+    .I0 (gfcm_clk ),
+    .I1 (hfextclk ),
+    .S  (test_mode)
+  );
 
   assign inspect_16m_clk = hfextclk ;
   assign inspect_pll_clk = plloutclk;
