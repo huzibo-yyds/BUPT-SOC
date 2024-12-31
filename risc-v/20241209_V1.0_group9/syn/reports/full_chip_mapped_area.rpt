@@ -3,7 +3,7 @@
 Report : area
 Design : full_chip
 Version: O-2018.06-SP1
-Date   : Wed Dec 25 06:25:18 2024
+Date   : Mon Dec 30 23:57:52 2024
 ****************************************
 
 Library(s) Used:
@@ -14,21 +14,21 @@ Library(s) Used:
     SP018_V1p4_max (File: /home/huzi/Soc/lib/SMIC180/SP018_V1.5b/SP018_V1p5b/SP018_V1p5b/syn/SP018_V1p4_max.db)
 
 Number of ports:                        58727
-Number of nets:                         96364
-Number of cells:                        47486
-Number of combinational cells:          33934
-Number of sequential cells:             12060
+Number of nets:                         96380
+Number of cells:                        47502
+Number of combinational cells:          33974
+Number of sequential cells:             12036
 Number of macros/black boxes:              88
-Number of buf/inv:                       9602
+Number of buf/inv:                       9615
 Number of references:                      11
 
-Combinational area:             361504.287687
-Buf/Inv area:                    61319.463865
-Noncombinational area:          541977.961979
+Combinational area:             361848.620496
+Buf/Inv area:                    61483.163072
+Noncombinational area:          541345.744389
 Macro/Black Box area:          5163918.375000
 Net Interconnect area:      undefined  (No wire load specified)
 
-Total cell area:               6067400.624666
+Total cell area:               6067112.739885
 Total area:                 undefined
 
 The above information was reported from the logical library. The following are from the physical library:
@@ -41,17 +41,17 @@ Hierarchical area distribution
 Hierarchical cell                 Absolute      Percent  Combi-       Noncombi-    Black-
                                   Total         Total    national     national     boxes         Design
 --------------------------------  ------------  -------  -----------  -----------  ------------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-full_chip                         6067400.6247    100.0     327.3984       0.0000   688000.0000  full_chip
-u_e203_soc_top                    5379073.2263     88.7       0.0000       0.0000        0.0000  e203_soc_top
-u_e203_soc_top/u_e203_subsys_top  5379073.2263     88.7      11.2896       0.0000        0.0000  e203_subsys_top
+full_chip                         6067112.7399    100.0     327.3984       0.0000   688000.0000  full_chip
+u_e203_soc_top                    5378785.3415     88.7       0.0000       0.0000        0.0000  e203_soc_top
+u_e203_soc_top/u_e203_subsys_top  5378785.3415     88.7      11.2896       0.0000        0.0000  e203_subsys_top
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main
-                                  5265012.5131     86.8     899.4048       0.0000        0.0000  e203_subsys_main
+                                  5264673.8251     86.8     899.4048       0.0000        0.0000  e203_subsys_main
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top
-                                  4715075.3855     77.7      11.2896       0.0000        0.0000  e203_cpu_top
+                                  4715084.7935     77.7      11.2896       0.0000        0.0000  e203_cpu_top
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu
-                                   239008.3641      3.9      48.9216       0.0000        0.0000  e203_cpu_MASTER1
+                                   239017.7721      3.9      65.8560       0.0000        0.0000  e203_cpu_MASTER1
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_clk_ctrl
-                                      429.0048      0.0      67.7376       0.0000        0.0000  e203_clk_ctrl
+                                      445.9392      0.0      84.6720       0.0000        0.0000  e203_clk_ctrl
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_clk_ctrl/dtcm_active_dffr
                                        45.1584      0.0       0.0000      45.1584        0.0000  sirv_gnrl_dffr_DW1_20
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_clk_ctrl/itcm_active_dffr
@@ -69,11 +69,11 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_clk_ctrl/u_lsu_clkgate
                                        45.1584      0.0       5.6448      39.5136        0.0000  e203_clkgate_5
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core
-                                   199904.9520      3.3      11.2896       0.0000        0.0000  e203_core
+                                   199822.1616      3.3      11.2896       0.0000        0.0000  e203_core
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_biu
-                                    10845.5427      0.2     321.7536       0.0000        0.0000  e203_biu
+                                    10838.0163      0.2     321.7536       0.0000        0.0000  e203_biu
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_biu/u_biu_icb_arbt
-                                     1699.0848      0.0    1524.0960       0.0000        0.0000  sirv_gnrl_icb_arbt_AW32_DW32_USR_W1_ARBT_SCHEME0_FIFO_OUTS_NUM1_FIFO_CUT_READY1_ARBT_NUM2_ALLOW_0CYCL_RSP0_ARBT_PTR_W1
+                                     1691.5584      0.0    1516.5696       0.0000        0.0000  sirv_gnrl_icb_arbt_AW32_DW32_USR_W1_ARBT_SCHEME0_FIFO_OUTS_NUM1_FIFO_CUT_READY1_ARBT_NUM2_ALLOW_0CYCL_RSP0_ARBT_PTR_W1
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_biu/u_biu_icb_arbt/arbt_num_gt_1_gen_dp_1_u_sirv_gnrl_rspid_fifo
                                       174.9888      0.0      33.8688       0.0000        0.0000  sirv_gnrl_pipe_stage_CUT_READY1_DP1_DW1
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_biu/u_biu_icb_arbt/arbt_num_gt_1_gen_dp_1_u_sirv_gnrl_rspid_fifo/dp_gt_0_dat_dfflr
@@ -115,15 +115,15 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_biu/u_sirv_gnrl_icb_buffer/u_sirv_gnrl_rsp_fifo/dp_gt0_vec_31_dfflr
                                        67.7376      0.0      22.5792      45.1584        0.0000  sirv_gnrl_dfflr_DW1_7
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu
-                                   157343.1591      2.6      26.3424       0.0000        0.0000  e203_exu
+                                   157266.0135      2.6      26.3424       0.0000        0.0000  e203_exu
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_alu
-                                    46831.1433      0.8    7959.1681       0.0000        0.0000  e203_exu_alu
+                                    46821.7353      0.8    7959.1681       0.0000        0.0000  e203_exu_alu
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_alu/u_e203_exu_alu_bjp
                                      1243.7376      0.0    1243.7376       0.0000        0.0000  e203_exu_alu_bjp
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_alu/u_e203_exu_alu_csrctrl
-                                     1396.1472      0.0    1396.1472       0.0000        0.0000  e203_exu_alu_csrctrl
+                                     1388.6208      0.0    1388.6208       0.0000        0.0000  e203_exu_alu_csrctrl
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_alu/u_e203_exu_alu_dpath
-                                    17227.9299      0.3   12508.8770       0.0000        0.0000  e203_exu_alu_dpath
+                                    17226.0483      0.3   12506.9954       0.0000        0.0000  e203_exu_alu_dpath
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_alu/u_e203_exu_alu_dpath/add_1_root_add_288_2
                                      1633.2288      0.0    1633.2288       0.0000        0.0000  e203_exu_alu_dpath_DW01_add_3
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_alu/u_e203_exu_alu_dpath/sbf_0_dffl
@@ -135,7 +135,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_alu/u_e203_exu_alu_dpath/sbf_1_dffl/clk_gate_qout_r_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_sirv_gnrl_dffl_DW33_1_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_alu/u_e203_exu_alu_lsuagu
-                                     4692.7105      0.1    4448.1025       0.0000        0.0000  e203_exu_alu_lsuagu
+                                     4685.1841      0.1    4440.5761       0.0000        0.0000  e203_exu_alu_lsuagu
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_alu/u_e203_exu_alu_lsuagu/icb_leftover_err_dfflr
                                        67.7376      0.0      22.5792      45.1584        0.0000  sirv_gnrl_dfflr_DW1_17
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_alu/u_e203_exu_alu_lsuagu/icb_state_dfflr
@@ -143,7 +143,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_alu/u_e203_exu_alu_lsuagu/icb_state_dfflr/clk_gate_qout_r_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_sirv_gnrl_dfflr_DW4_1_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_alu/u_e203_exu_alu_muldiv
-                                    10996.0707      0.2   10303.6418       0.0000        0.0000  e203_exu_alu_muldiv
+                                    11003.5971      0.2   10311.1682       0.0000        0.0000  e203_exu_alu_muldiv
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_alu/u_e203_exu_alu_muldiv/exec_cnt_dfflr
                                       312.3456      0.0       5.6448     270.9504        0.0000  sirv_gnrl_dfflr_DW6_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_alu/u_e203_exu_alu_muldiv/exec_cnt_dfflr/clk_gate_qout_r_reg
@@ -207,7 +207,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_commit/u_e203_exu_excp/wfi_halt_req_dfflr
                                        67.7376      0.0      22.5792      45.1584        0.0000  sirv_gnrl_dfflr_DW1_12
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_csr
-                                    24355.4310      0.4    8783.3090       0.0000        0.0000  e203_exu_csr
+                                    24332.8518      0.4    8772.0194       0.0000        0.0000  e203_exu_csr
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_csr/add_402
                                       643.5072      0.0     643.5072       0.0000        0.0000  e203_exu_csr_DW01_inc_3
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_csr/add_403
@@ -221,7 +221,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_csr/badaddr_dfflr/clk_gate_qout_r_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_sirv_gnrl_dfflr_DW32_1_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_csr/cause_dfflr
-                                      278.4768      0.0      16.9344     225.7920        0.0000  sirv_gnrl_dfflr_DW32_2
+                                      267.1872      0.0       5.6448     225.7920        0.0000  sirv_gnrl_dfflr_DW32_2
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_csr/cause_dfflr/clk_gate_qout_r_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_sirv_gnrl_dfflr_DW32_2_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_csr/counterstop_dfflr
@@ -317,7 +317,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_oitf/oitf_entries_1__vld_dfflrs
                                        67.7376      0.0      22.5792      45.1584        0.0000  sirv_gnrl_dfflr_DW1_28
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_regfile
-                                    65080.7828      1.1   18825.4084       0.0000        0.0000  e203_exu_regfile
+                                    65035.6244      1.1   18780.2500       0.0000        0.0000  e203_exu_regfile
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_regfile/regfile_10__rfno0_rf_dffl
                                      1492.1088      0.0      11.2896    1445.0688        0.0000  sirv_gnrl_dffl_DW32_23
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_regfile/regfile_10__rfno0_rf_dffl/clk_gate_qout_r_reg
@@ -445,7 +445,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_exu/u_e203_exu_wbck
                                       679.2576      0.0     679.2576       0.0000        0.0000  e203_exu_wbck
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu
-                                    20897.0500      0.3      13.1712       0.0000        0.0000  e203_ifu
+                                    20872.5892      0.3      13.1712       0.0000        0.0000  e203_ifu
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch
                                     13210.7138      0.2    2871.3216       0.0000        0.0000  e203_ifu_ifetch
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/add_465
@@ -505,7 +505,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/u_e203_ifu_minidec/u_e203_exu_decode
                                      2009.5488      0.0    2009.5488       0.0000        0.0000  e203_exu_decode_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ift2icb
-                                     7673.1650      0.1    3144.1537       0.0000        0.0000  e203_ifu_ift2icb
+                                     7648.7042      0.1    3119.6929       0.0000        0.0000  e203_ifu_ift2icb
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ift2icb/add_765
                                       675.4944      0.0     675.4944       0.0000        0.0000  e203_ifu_ift2icb_DW01_add_3
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ift2icb/icb2itcm_dfflr
@@ -543,9 +543,9 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ift2icb/u_e203_ifetch_rsp_bypbuf/u_bypbuf_fifo/dp_gt0_vec_31_dfflr
                                        67.7376      0.0      22.5792      45.1584        0.0000  sirv_gnrl_dfflr_DW1_1
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_lsu
-                                    10807.9106      0.2       9.4080       0.0000        0.0000  e203_lsu
+                                    10834.2530      0.2       9.4080       0.0000        0.0000  e203_lsu
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_lsu/u_e203_lsu_ctrl
-                                    10798.5026      0.2    4386.0096       0.0000        0.0000  e203_lsu_ctrl
+                                    10824.8450      0.2    4408.5888       0.0000        0.0000  e203_lsu_ctrl
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_lsu/u_e203_lsu_ctrl/excl_addr_dffl
                                      1492.1088      0.0      11.2896    1445.0688        0.0000  sirv_gnrl_dfflr_DW32_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_lsu/u_e203_lsu_ctrl/excl_addr_dffl/clk_gate_qout_r_reg
@@ -561,7 +561,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_lsu/u_e203_lsu_ctrl/u_e203_lsu_splt_stage/dp_gt_0_vld_dfflr
                                        67.7376      0.0      22.5792      45.1584        0.0000  sirv_gnrl_dfflr_DW1_10
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_lsu/u_e203_lsu_ctrl/u_lsu_icb_arbt
-                                     2739.6097      0.0    2553.3312       0.0000        0.0000  sirv_gnrl_icb_arbt_AW32_DW32_USR_W39_ARBT_SCHEME0_FIFO_OUTS_NUM1_FIFO_CUT_READY0_ARBT_NUM2_ALLOW_0CYCL_RSP0_ARBT_PTR_W1
+                                     2743.3729      0.0    2557.0944       0.0000        0.0000  sirv_gnrl_icb_arbt_AW32_DW32_USR_W39_ARBT_SCHEME0_FIFO_OUTS_NUM1_FIFO_CUT_READY0_ARBT_NUM2_ALLOW_0CYCL_RSP0_ARBT_PTR_W1
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_lsu/u_e203_lsu_ctrl/u_lsu_icb_arbt/arbt_num_gt_1_gen_dp_1_u_sirv_gnrl_rspid_fifo
                                       186.2784      0.0      45.1584       0.0000        0.0000  sirv_gnrl_pipe_stage_CUT_READY0_DP1_DW1_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_lsu/u_e203_lsu_ctrl/u_lsu_icb_arbt/arbt_num_gt_1_gen_dp_1_u_sirv_gnrl_rspid_fifo/dp_gt_0_dat_dfflr
@@ -625,11 +625,11 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_irq_sync/master_gen_u_tmr_irq_sync/sync_gen_1__i_is_not_0_sync_dffr
                                        45.1584      0.0       0.0000      45.1584        0.0000  sirv_gnrl_dffr_DW1_3
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_itcm_ctrl
-                                    11451.4179      0.2    1066.8672       0.0000        0.0000  e203_itcm_ctrl
+                                    11466.4707      0.2    1085.6832       0.0000        0.0000  e203_itcm_ctrl
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_itcm_ctrl/ifu_holdup_dffl
                                        67.7376      0.0      22.5792      45.1584        0.0000  sirv_gnrl_dfflr_DW1_112
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_itcm_ctrl/u_itcm_icb_arbt
-                                     1525.9776      0.0    1413.0816       0.0000        0.0000  sirv_gnrl_icb_arbt_AW16_DW64_USR_W1_ARBT_SCHEME0_FIFO_OUTS_NUM1_FIFO_CUT_READY0_ARBT_NUM2_ALLOW_0CYCL_RSP0_ARBT_PTR_W1
+                                     1522.2144      0.0    1409.3184       0.0000        0.0000  sirv_gnrl_icb_arbt_AW16_DW64_USR_W1_ARBT_SCHEME0_FIFO_OUTS_NUM1_FIFO_CUT_READY0_ARBT_NUM2_ALLOW_0CYCL_RSP0_ARBT_PTR_W1
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_itcm_ctrl/u_itcm_icb_arbt/arbt_num_gt_1_gen_dp_1_u_sirv_gnrl_rspid_fifo
                                       112.8960      0.0      45.1584       0.0000        0.0000  sirv_gnrl_pipe_stage_CUT_READY0_DP1_DW1_3
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_itcm_ctrl/u_itcm_icb_arbt/arbt_num_gt_1_gen_dp_1_u_sirv_gnrl_rspid_fifo/dp_gt_0_vld_dfflr
@@ -667,7 +667,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_itcm_ctrl/u_sram_icb_ctrl/u_sirv_1cyc_sram_ctrl/u_ram_clkgate
                                        45.1584      0.0       5.6448      39.5136        0.0000  e203_clkgate_1
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_nice_core
-                                    21487.8726      0.4    6687.2065       0.0000        0.0000  e203_subsys_nice_core
+                                    21480.3462      0.4    6679.6801       0.0000        0.0000  e203_subsys_nice_core
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_nice_core/add_349
                                      1477.0560      0.0    1477.0560       0.0000        0.0000  e203_subsys_nice_core_DW01_add_11
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_nice_core/add_387
@@ -717,15 +717,15 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_nice_core/state_dfflr
                                       129.8304      0.0      39.5136      90.3168        0.0000  sirv_gnrl_dfflr_DW2_20
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_reset_ctrl
-                                      137.3568      0.0      47.0400      90.3168        0.0000  e203_reset_ctrl_MASTER1
+                                      188.1600      0.0      97.8432      90.3168        0.0000  e203_reset_ctrl_MASTER1
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams
                                   4476055.7318     73.8       5.6448       0.0000        0.0000  e203_srams
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram
                                   1548629.4282     25.5      50.8032       0.0000  1548578.6250  e203_dtcm_ram
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram
-                                  2927420.6588     48.2      80.9088       0.0000  2927339.7500  e203_itcm_ram
+                                  2927420.6588     48.3      80.9088       0.0000  2927339.7500  e203_itcm_ram
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_clint
-                                    13989.6962      0.2      16.9344       0.0000        0.0000  e203_subsys_clint
+                                    13997.2226      0.2      16.9344       0.0000        0.0000  e203_subsys_clint
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_clint/u_aon_rtctoggle_sync
                                        90.3168      0.0       0.0000       0.0000        0.0000  sirv_gnrl_sync_DP2_DW1_12
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_clint/u_aon_rtctoggle_sync/sync_gen_0__i_is_0_sync_dffr
@@ -733,11 +733,11 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_clint/u_aon_rt
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_clint/u_aon_rtctoggle_sync/sync_gen_1__i_is_not_0_sync_dffr
                                        45.1584      0.0       0.0000      45.1584        0.0000  sirv_gnrl_dffr_DW1_35
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_clint/u_sirv_clint_top
-                                    13882.4450      0.2      39.5136       0.0000        0.0000  sirv_clint_top
+                                    13889.9714      0.2      39.5136       0.0000        0.0000  sirv_clint_top
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_clint/u_sirv_clint_top/io_rtcToggle_dffr
                                        45.1584      0.0       0.0000      45.1584        0.0000  sirv_gnrl_dffr_DW1_34
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_clint/u_sirv_clint_top/u_sirv_clint
-                                    13797.7729      0.2    4036.0321    6307.1232        0.0000  sirv_clint
+                                    13805.2993      0.2    4043.5585    6307.1232        0.0000  sirv_clint
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_clint/u_sirv_clint_top/u_sirv_clint/add_362
                                      1305.8304      0.0    1305.8304       0.0000        0.0000  sirv_clint_DW01_inc_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_clint/u_sirv_clint_top/u_sirv_clint/clk_gate_time_0_reg
@@ -751,7 +751,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_clint/u_sirv_c
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_clint/u_sirv_clint_top/u_sirv_clint/gte_368
                                      2005.7856      0.0    2005.7856       0.0000        0.0000  sirv_clint_DW_cmp_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_hclkgen
-                                     1413.0816      0.0      37.6320       0.0000        0.0000  e203_subsys_hclkgen
+                                     1446.9504      0.0      54.5664       0.0000        0.0000  e203_subsys_hclkgen
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_hclkgen/hfextclk_rstsync
                                       122.3040      0.0      31.9872      90.3168        0.0000  e203_subsys_hclkgen_rstsync_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_hclkgen/plloutclk_rstsync
@@ -763,7 +763,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_hclkgen/u_e203
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_hclkgen/u_e203_subsys_gfcm/u_clk1_clkgate
                                        45.1584      0.0       5.6448      39.5136        0.0000  e203_clkgate_12
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_hclkgen/u_e203_subsys_pll
-                                        0.0000      0.0       0.0000       0.0000        0.0000  e203_subsys_pll
+                                       16.9344      0.0      16.9344       0.0000        0.0000  e203_subsys_pll
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_hclkgen/u_e203_subsys_pllclkdiv
                                       730.0608      0.0     304.8192       0.0000        0.0000  e203_subsys_pllclkdiv
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_hclkgen/u_e203_subsys_pllclkdiv/div_cnt_dfflr
@@ -903,7 +903,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_mems/u_sirv_mr
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_mems/u_sirv_mrom_top/u_sirv_mrom
                                       250.2528      0.0     250.2528       0.0000        0.0000  sirv_mrom_AW12_DW32_DP1024
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips
-                                   499991.9360      8.2    1273.8432       0.0000        0.0000  e203_subsys_perips
+                                   499594.9185      8.2    1273.8432       0.0000        0.0000  e203_subsys_perips
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_aon_icb_cdc_rx
                                      1815.7441      0.0      58.3296       0.0000        0.0000  sirv_gnrl_cdc_rx_DW33_SYNC_DP2
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_aon_icb_cdc_rx/buf_dat_dfflr
@@ -1039,7 +1039,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_i2c1_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_i2c1_apb_icb2apb/u_rsp_fifo/dp_gt0_vec_31_dfflr
                                        67.7376      0.0      22.5792      45.1584        0.0000  sirv_gnrl_dfflr_DW1_86
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_gpioA
-                                    32071.8729      0.5    8128.5122   23407.1047        0.0000  apb_gpio_APB_ADDR_WIDTH32_1
+                                    32094.4521      0.5    8151.0914   23407.1047        0.0000  apb_gpio_APB_ADDR_WIDTH32_1
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_gpioA/clk_gate_gpio_padcfg_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_apb_gpio_APB_ADDR_WIDTH32_1_7
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_gpioA/clk_gate_gpio_padcfg_reg_0
@@ -1071,7 +1071,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perip
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_gpioA/clk_gate_r_status_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_apb_gpio_APB_ADDR_WIDTH32_1_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_gpioB
-                                    32071.8729      0.5    8128.5122   23407.1047        0.0000  apb_gpio_APB_ADDR_WIDTH32_0
+                                    32147.1369      0.5    8203.7762   23407.1047        0.0000  apb_gpio_APB_ADDR_WIDTH32_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_gpioB/clk_gate_gpio_padcfg_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_apb_gpio_APB_ADDR_WIDTH32_0_7
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_gpioB/clk_gate_gpio_padcfg_reg_0
@@ -1439,9 +1439,9 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perip
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_pwm/u_tim3/u_prescaler/clk_gate_r_presc_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_prescaler_0_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi1
-                                    63884.0849      1.1     301.0560       0.0000        0.0000  apb_spi_master_APB_ADDR_WIDTH32_1
+                                    63814.4657      1.1     301.0560       0.0000        0.0000  apb_spi_master_APB_ADDR_WIDTH32_1
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi1/u_axiregs
-                                     9242.4195      0.2    2254.1568    6773.7602        0.0000  spi_master_apb_if_BUFFER_DEPTH10_APB_ADDR_WIDTH32_1
+                                     9172.8003      0.2    2184.5376    6773.7602        0.0000  spi_master_apb_if_BUFFER_DEPTH10_APB_ADDR_WIDTH32_1
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi1/u_axiregs/clk_gate_spi_addr_len_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_spi_master_apb_if_BUFFER_DEPTH10_APB_ADDR_WIDTH32_1_3
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi1/u_axiregs/clk_gate_spi_addr_reg
@@ -1535,9 +1535,9 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perip
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi1/u_txfifo/clk_gate_pointer_in_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_spi_master_fifo_DATA_WIDTH32_BUFFER_DEPTH10_3_10
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi2
-                                    63837.0449      1.1     301.0560       0.0000        0.0000  apb_spi_master_APB_ADDR_WIDTH32_0
+                                    63816.3473      1.1     301.0560       0.0000        0.0000  apb_spi_master_APB_ADDR_WIDTH32_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi2/u_axiregs
-                                     9185.9715      0.2    2197.7088    6773.7602        0.0000  spi_master_apb_if_BUFFER_DEPTH10_APB_ADDR_WIDTH32_0
+                                     9174.6819      0.2    2186.4192    6773.7602        0.0000  spi_master_apb_if_BUFFER_DEPTH10_APB_ADDR_WIDTH32_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi2/u_axiregs/clk_gate_spi_addr_len_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_spi_master_apb_if_BUFFER_DEPTH10_APB_ADDR_WIDTH32_0_3
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi2/u_axiregs/clk_gate_spi_addr_reg
@@ -1575,7 +1575,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perip
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi2/u_rxfifo/clk_gate_pointer_in_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_spi_master_fifo_DATA_WIDTH32_BUFFER_DEPTH10_0_10
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi2/u_spictrl
-                                    16702.9635      0.3    2948.4672     323.6352        0.0000  spi_master_controller_0
+                                    16693.5555      0.3    2940.9408     323.6352        0.0000  spi_master_controller_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi2/u_spictrl/u_clkgen
                                      1439.4240      0.0     408.3072     812.8512        0.0000  spi_master_clkgen_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi2/u_spictrl/u_clkgen/add_51
@@ -1585,7 +1585,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perip
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi2/u_spictrl/u_clkgen/clk_gate_counter_trgt_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_spi_master_clkgen_0_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi2/u_spictrl/u_rxreg
-                                     6038.0545      0.1    2295.5520    2987.9809        0.0000  spi_master_rx_0
+                                     6036.1729      0.1    2293.6704    2987.9809        0.0000  spi_master_rx_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi2/u_spictrl/u_rxreg/add_79
                                       312.3456      0.0     312.3456       0.0000        0.0000  spi_master_rx_0_DW01_inc_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi2/u_spictrl/u_rxreg/clk_gate_counter_reg
@@ -1631,7 +1631,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perip
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_spi2/u_txfifo/clk_gate_pointer_in_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_spi_master_fifo_DATA_WIDTH32_BUFFER_DEPTH10_1_10
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_uart0
-                                    29533.5943      0.5     786.5088    2032.1281        0.0000  apb_uart_sv_APB_ADDR_WIDTH32_2
+                                    29411.2903      0.5     874.9440    1821.3889        0.0000  apb_uart_sv_APB_ADDR_WIDTH32_2
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_uart0/clk_gate_regs_q_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_apb_uart_sv_APB_ADDR_WIDTH32_2_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_uart0/clk_gate_regs_q_reg_0
@@ -1729,7 +1729,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perip
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_uart0/uart_tx_i/clk_gate_reg_data_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_uart_tx_2_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_uart1
-                                    29526.0679      0.5     786.5088    2032.1281        0.0000  apb_uart_sv_APB_ADDR_WIDTH32_1
+                                    29403.7639      0.5     874.9440    1821.3889        0.0000  apb_uart_sv_APB_ADDR_WIDTH32_1
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_uart1/clk_gate_regs_q_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_apb_uart_sv_APB_ADDR_WIDTH32_1_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_uart1/clk_gate_regs_q_reg_0
@@ -1827,7 +1827,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perip
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_uart1/uart_tx_i/clk_gate_reg_data_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_uart_tx_1_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_uart2
-                                    29526.0679      0.5     786.5088    2032.1281        0.0000  apb_uart_sv_APB_ADDR_WIDTH32_0
+                                    29403.7639      0.5     874.9440    1821.3889        0.0000  apb_uart_sv_APB_ADDR_WIDTH32_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_uart2/clk_gate_regs_q_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_apb_uart_sv_APB_ADDR_WIDTH32_0_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_perips_apb_uart2/clk_gate_regs_q_reg_0
@@ -1941,7 +1941,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_pwm_a
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_pwm_apb_icb2apb/u_rsp_fifo/dp_gt0_vec_31_dfflr
                                        67.7376      0.0      22.5792      45.1584        0.0000  sirv_gnrl_dfflr_DW1_85
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_hclkgen_regs
-                                     2163.8400      0.0     406.4256       0.0000        0.0000  sirv_hclkgen_regs
+                                     2152.5504      0.0     406.4256       0.0000        0.0000  sirv_hclkgen_regs
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_hclkgen_regs/hfxoscen_dfflrs
                                        80.9088      0.0      28.2240      52.6848        0.0000  sirv_gnrl_dfflrs_DW1_103
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_hclkgen_regs/pll_ASLEEP_dfflrs
@@ -1967,7 +1967,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_hclkgen_regs/pll_N_1_dfflr
                                        80.9088      0.0      28.2240      52.6848        0.0000  sirv_gnrl_dfflrs_DW1_102
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_hclkgen_regs/pll_N_42_dfflr
-                                      188.1600      0.0      16.9344     135.4752        0.0000  sirv_gnrl_dfflr_DW3_22
+                                      176.8704      0.0       5.6448     135.4752        0.0000  sirv_gnrl_dfflr_DW3_22
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_hclkgen_regs/pll_N_42_dfflr/clk_gate_qout_r_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_sirv_gnrl_dfflr_DW3_22_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_hclkgen_regs/pll_OD_0_dfflr
@@ -1985,9 +1985,9 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_hclkgen_regs/plloutdivby1_dfflrs
                                        80.9088      0.0      28.2240      52.6848        0.0000  sirv_gnrl_dfflrs_DW1_96
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_ppi_fab
-                                    21295.9493      0.4     485.4528       0.0000        0.0000  sirv_icb1to16_bus_2_1_32_32_1_1_10000000_15_10008000_12_10012000_12_10013000_12_10014000_12_10015000_12_10023000_12_10024000_12_10025000_12_10033000_12_10034000_12_10035000_12_11000000_24_10040000_12_10041000_12_10042000_3
+                                    21292.1861      0.4     485.4528       0.0000        0.0000  sirv_icb1to16_bus_2_1_32_32_1_1_10000000_15_10008000_12_10012000_12_10013000_12_10014000_12_10015000_12_10023000_12_10024000_12_10025000_12_10033000_12_10034000_12_10035000_12_11000000_24_10040000_12_10041000_12_10042000_3
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_ppi_fab/u_buf_icb_splt
-                                     8632.7810      0.1    7755.9553       0.0000        0.0000  sirv_gnrl_icb_splt_AW32_DW32_FIFO_OUTS_NUM1_FIFO_CUT_READY1_SPLT_NUM17_SPLT_PTR_1HOT1_SPLT_PTR_W17_ALLOW_DIFF0_ALLOW_0CYCL_RSP1_VLD_MSK_PAYLOAD1_USR_W1
+                                     8629.0178      0.1    7752.1921       0.0000        0.0000  sirv_gnrl_icb_splt_AW32_DW32_FIFO_OUTS_NUM1_FIFO_CUT_READY1_SPLT_NUM17_SPLT_PTR_1HOT1_SPLT_PTR_W17_ALLOW_DIFF0_ALLOW_0CYCL_RSP1_VLD_MSK_PAYLOAD1_USR_W1
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_ppi_fab/u_buf_icb_splt/splt_num_gt_1_gen_fifo_dp_1_u_sirv_gnrl_rspid_fifo
                                       876.8256      0.0      33.8688       0.0000        0.0000  sirv_gnrl_pipe_stage_CUT_READY1_DP1_DW17
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_ppi_fab/u_buf_icb_splt/splt_num_gt_1_gen_fifo_dp_1_u_sirv_gnrl_rspid_fifo/dp_gt_0_dat_dfflr
@@ -2081,9 +2081,9 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_qspi0_top/u_sirv_flash_qspi/clk_gate_insn_cmd_en_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_sirv_flash_qspi_1
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_qspi0_top/u_sirv_flash_qspi/fifo
-                                     9861.4659      0.2     508.0320     135.4752        0.0000  sirv_qspi_fifo
+                                     9859.5843      0.2     508.0320     135.4752        0.0000  sirv_qspi_fifo
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_qspi0_top/u_sirv_flash_qspi/fifo/rxq
-                                     4609.9201      0.1    1117.6704    3206.2465        0.0000  sirv_queue_1_0
+                                     4608.0385      0.1    1115.7888    3206.2465        0.0000  sirv_queue_1_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_qspi0_top/u_sirv_flash_qspi/fifo/rxq/clk_gate_ram_reg_0_
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_sirv_queue_1_0_7
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_qspi0_top/u_sirv_flash_qspi/fifo/rxq/clk_gate_ram_reg_1_
@@ -2123,9 +2123,9 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_qspi0_top/u_sirv_flash_qspi/flash/add_164
                                       585.1776      0.0     585.1776       0.0000        0.0000  sirv_qspi_flashmap_DW01_inc_0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_qspi0_top/u_sirv_flash_qspi/mac
-                                     6356.0449      0.1     812.8512     323.6352        0.0000  sirv_qspi_media
+                                     6357.9265      0.1     812.8512     323.6352        0.0000  sirv_qspi_media
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_qspi0_top/u_sirv_flash_qspi/mac/phy
-                                     5219.5585      0.1    1970.0352    2769.7153        0.0000  sirv_qspi_physical
+                                     5221.4401      0.1    1971.9168    2769.7153        0.0000  sirv_qspi_physical
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_qspi0_top/u_sirv_flash_qspi/mac/phy/clk_gate_buffer_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_sirv_qspi_physical_4
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_qspi0_top/u_sirv_flash_qspi/mac/phy/clk_gate_ctrl_fmt_iodir_reg
@@ -2169,7 +2169,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_spi2_
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_spi2_apb_icb2apb/u_rsp_fifo/dp_gt0_vec_31_dfflr
                                        67.7376      0.0      22.5792      45.1584        0.0000  sirv_gnrl_dfflr_DW1_88
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_uart0_apb_icb2apb
-                                      820.3776      0.0     139.2384       0.0000        0.0000  sirv_gnrl_icb2apb_AW32_DW32_7
+                                      812.8512      0.0     131.7120       0.0000        0.0000  sirv_gnrl_icb2apb_AW32_DW32_7
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_uart0_apb_icb2apb/apb_enable_dfflr
                                        67.7376      0.0      22.5792      45.1584        0.0000  sirv_gnrl_dfflr_DW1_135
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_uart0_apb_icb2apb/u_rsp_fifo
@@ -2183,7 +2183,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_uart0
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_uart0_apb_icb2apb/u_rsp_fifo/dp_gt0_vec_31_dfflr
                                        67.7376      0.0      22.5792      45.1584        0.0000  sirv_gnrl_dfflr_DW1_92
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_uart1_apb_icb2apb
-                                      820.3776      0.0     139.2384       0.0000        0.0000  sirv_gnrl_icb2apb_AW32_DW32_6
+                                      812.8512      0.0     131.7120       0.0000        0.0000  sirv_gnrl_icb2apb_AW32_DW32_6
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_uart1_apb_icb2apb/apb_enable_dfflr
                                        67.7376      0.0      22.5792      45.1584        0.0000  sirv_gnrl_dfflr_DW1_134
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_uart1_apb_icb2apb/u_rsp_fifo
@@ -2197,7 +2197,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_uart1
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_uart1_apb_icb2apb/u_rsp_fifo/dp_gt0_vec_31_dfflr
                                        67.7376      0.0      22.5792      45.1584        0.0000  sirv_gnrl_dfflr_DW1_91
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_uart2_apb_icb2apb
-                                      820.3776      0.0     139.2384       0.0000        0.0000  sirv_gnrl_icb2apb_AW32_DW32_5
+                                      812.8512      0.0     131.7120       0.0000        0.0000  sirv_gnrl_icb2apb_AW32_DW32_5
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_uart2_apb_icb2apb/apb_enable_dfflr
                                        67.7376      0.0      22.5792      45.1584        0.0000  sirv_gnrl_dfflr_DW1_133
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_uart2_apb_icb2apb/u_rsp_fifo
@@ -2211,7 +2211,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_uart2
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u_uart2_apb_icb2apb/u_rsp_fifo/dp_gt0_vec_31_dfflr
                                        67.7376      0.0      22.5792      45.1584        0.0000  sirv_gnrl_dfflr_DW1_90
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_plic
-                                    14271.9364      0.2       5.6448       0.0000        0.0000  e203_subsys_plic
+                                    14279.4628      0.2       5.6448       0.0000        0.0000  e203_subsys_plic
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_plic/u_rtc_irq_sync
                                        90.3168      0.0       0.0000       0.0000        0.0000  sirv_gnrl_sync_DP2_DW1_14
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_plic/u_rtc_irq_sync/sync_gen_0__i_is_0_sync_dffr
@@ -2219,7 +2219,7 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_plic/u_rtc_irq
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_plic/u_rtc_irq_sync/sync_gen_1__i_is_not_0_sync_dffr
                                        45.1584      0.0       0.0000      45.1584        0.0000  sirv_gnrl_dffr_DW1_39
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_plic/u_sirv_plic_top
-                                    14072.4868      0.2      20.6976       0.0000        0.0000  sirv_plic_top
+                                    14080.0132      0.2      28.2240       0.0000        0.0000  sirv_plic_top
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_plic/u_sirv_plic_top/u_sirv_plic_man
                                     14051.7892      0.2    4732.2241       0.0000        0.0000  sirv_plic_man_PLIC_PRIO_WIDTH3_PLIC_IRQ_NUM17_PLIC_IRQ_NUM_LOG26_PLIC_ICB_RSP_FLOP1_PLIC_IRQ_I_FLOP1_PLIC_IRQ_O_FLOP1
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_plic/u_sirv_plic_top/u_sirv_plic_man/enab_r_i_0__irq_enab_dfflr
@@ -2423,11 +2423,11 @@ u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_main_ResetCatchAndSync_2_1
 u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_main_ResetCatchAndSync_2_1/reset_n_catch_reg/reg_9
                                        45.1584      0.0       0.0000      45.1584        0.0000  sirv_AsyncResetReg_50
 u_e203_soc_top/u_e203_subsys_top/u_sirv_aon_top
-                                    78110.8626      1.3     658.5600       0.0000        0.0000  sirv_aon_top
+                                    78152.2578      1.3     658.5600       0.0000        0.0000  sirv_aon_top
 u_e203_soc_top/u_e203_subsys_top/u_sirv_aon_top/u_aon_1to2_icb
-                                     2158.1952      0.0      41.3952       0.0000        0.0000  sirv_icb1to2_bus_0_1_15_32_1_1_0200_8
+                                     2128.0896      0.0      41.3952       0.0000        0.0000  sirv_icb1to2_bus_0_1_15_32_1_1_0200_8
 u_e203_soc_top/u_e203_subsys_top/u_sirv_aon_top/u_aon_1to2_icb/u_i_icb_splt
-                                     1473.2928      0.0    1236.2112       0.0000        0.0000  sirv_gnrl_icb_splt_AW15_DW32_FIFO_OUTS_NUM1_FIFO_CUT_READY1_SPLT_NUM2_SPLT_PTR_1HOT1_SPLT_PTR_W2_ALLOW_DIFF0_ALLOW_0CYCL_RSP1_VLD_MSK_PAYLOAD1_USR_W1
+                                     1443.1872      0.0    1206.1056       0.0000        0.0000  sirv_gnrl_icb_splt_AW15_DW32_FIFO_OUTS_NUM1_FIFO_CUT_READY1_SPLT_NUM2_SPLT_PTR_1HOT1_SPLT_PTR_W2_ALLOW_DIFF0_ALLOW_0CYCL_RSP1_VLD_MSK_PAYLOAD1_USR_W1
 u_e203_soc_top/u_e203_subsys_top/u_sirv_aon_top/u_aon_1to2_icb/u_i_icb_splt/splt_num_gt_1_gen_fifo_dp_1_u_sirv_gnrl_rspid_fifo
                                       237.0816      0.0      33.8688       0.0000        0.0000  sirv_gnrl_pipe_stage_CUT_READY1_DP1_DW2
 u_e203_soc_top/u_e203_subsys_top/u_sirv_aon_top/u_aon_1to2_icb/u_i_icb_splt/splt_num_gt_1_gen_fifo_dp_1_u_sirv_gnrl_rspid_fifo/dp_gt_0_dat_dfflr
@@ -2481,7 +2481,7 @@ u_e203_soc_top/u_e203_subsys_top/u_sirv_aon_top/u_aon_lclkgen_regs
 u_e203_soc_top/u_e203_subsys_top/u_sirv_aon_top/u_aon_lclkgen_regs/lfxoscen_dfflrs
                                        80.9088      0.0      28.2240      52.6848        0.0000  sirv_gnrl_dfflrs_DW1_104
 u_e203_soc_top/u_e203_subsys_top/u_sirv_aon_top/u_sirv_aon_wrapper
-                                    68851.5087      1.1     143.0016       0.0000        0.0000  sirv_aon_wrapper
+                                    68923.0095      1.1     159.9360       0.0000        0.0000  sirv_aon_wrapper
 u_e203_soc_top/u_e203_subsys_top/u_sirv_aon_top/u_sirv_aon_wrapper/ResetCatchAndSync_1_1
                                       193.8048      0.0      52.6848       0.0000        0.0000  sirv_ResetCatchAndSync_0
 u_e203_soc_top/u_e203_subsys_top/u_sirv_aon_top/u_sirv_aon_wrapper/ResetCatchAndSync_1_1/reset_n_catch_reg
@@ -2509,7 +2509,7 @@ u_e203_soc_top/u_e203_subsys_top/u_sirv_aon_top/u_sirv_aon_wrapper/dwakeup_degli
 u_e203_soc_top/u_e203_subsys_top/u_sirv_aon_top/u_sirv_aon_wrapper/io_rtc_dffr
                                        45.1584      0.0       0.0000      45.1584        0.0000  sirv_gnrl_dffr_DW1_41
 u_e203_soc_top/u_e203_subsys_top/u_sirv_aon_top/u_sirv_aon_wrapper/u_sirv_aon
-                                    67897.5375      1.1   12228.5187   23030.7847        0.0000  sirv_aon
+                                    67952.1039      1.1   12283.0851   23030.7847        0.0000  sirv_aon
 u_e203_soc_top/u_e203_subsys_top/u_sirv_aon_top/u_sirv_aon_wrapper/u_sirv_aon/clk_gate_backupRegs_0_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_sirv_aon_15
 u_e203_soc_top/u_e203_subsys_top/u_sirv_aon_top/u_sirv_aon_wrapper/u_sirv_aon/clk_gate_backupRegs_10_reg
@@ -2649,7 +2649,7 @@ u_e203_soc_top/u_e203_subsys_top/u_sirv_aon_top/u_sirv_aon_wrapper/u_sirv_aon/wd
 u_e203_soc_top/u_e203_subsys_top/u_sirv_aon_top/u_sirv_aon_wrapper/u_sirv_aon/wdog/clk_gate_scale_reg
                                        35.7504      0.0       0.0000      35.7504        0.0000  SNPS_CLOCK_GATE_HIGH_sirv_wdog_2
 u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module
-                                    35938.5610      0.6    2065.9968       0.0000        0.0000  sirv_debug_module_SUPPORT_JTAG_DTM1_ASYNC_FF_LEVELS2_PC_SIZE32_HART_NUM1_HART_ID_W1
+                                    35947.9690      0.6    2065.9968       0.0000        0.0000  sirv_debug_module_SUPPORT_JTAG_DTM1_ASYNC_FF_LEVELS2_PC_SIZE32_HART_NUM1_HART_ID_W1
 u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/cleardebint_dfflr
                                        67.7376      0.0      22.5792      45.1584        0.0000  sirv_gnrl_dfflr_DW1_159
 u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/dm_halt_int_gen_0__dm_debint_dfflr
@@ -2795,9 +2795,9 @@ u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/u_jtag_ResetCatchAndSync_3_
 u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/u_jtag_ResetCatchAndSync_3_1/reset_n_catch_reg/reg_2
                                        50.8032      0.0       5.6448      45.1584        0.0000  sirv_AsyncResetReg_17
 u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/u_jtag_pins
-                                       30.1056      0.0      30.1056       0.0000        0.0000  sirv_jtaggpioport
+                                       47.0400      0.0      47.0400       0.0000        0.0000  sirv_jtaggpioport
 u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/u_sirv_debug_csr
-                                     3945.7153      0.1     637.8624       0.0000        0.0000  sirv_debug_csr_PC_SIZE32
+                                     3938.1889      0.1     630.3360       0.0000        0.0000  sirv_debug_csr_PC_SIZE32
 u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/u_sirv_debug_csr/dcause_dfflr
                                       176.8704      0.0       5.6448     135.4752        0.0000  sirv_gnrl_dfflr_DW3_23
 u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/u_sirv_debug_csr/dcause_dfflr/clk_gate_qout_r_reg
@@ -2849,6 +2849,6 @@ u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/u_sirv_debug_ram/debug_ram_
 u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/u_sirv_debug_rom
                                      1044.2880      0.0    1044.2880       0.0000        0.0000  sirv_debug_rom
 --------------------------------  ------------  -------  -----------  -----------  ------------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Total                                                    361504.2877  541977.9620  5163918.3750
+Total                                                    361848.6205  541345.7444  5163918.3750
 
 1

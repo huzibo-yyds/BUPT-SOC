@@ -10,28 +10,29 @@
 
 
 
-set 	RST_PERIOD 				36000
+set 	RST_PERIOD 				        36000
 set 	CLK_HFEXTCLK_PERIOD 			50
 set 	CLK_LFEXTCLK_PERIOD 			20000	
-set 	CLK_JTAGCLK_PERIOD	 		1000	
+set 	CLK_JTAGCLK_PERIOD	 		    1000	
 	                        		
-set 	CLK_SKEW_SETUP 			0.5
-set 	CLK_SKEW_HOLD 			0.5
-set 	CLK_SOURCE_LATENCY 			2
+set 	CLK_SKEW_SETUP 			        0.5
+set 	CLK_SKEW_HOLD 			        0.5
+set 	CLK_SOURCE_LATENCY 			    2
 set 	CLK_NETWORK_LATENCY 			4
-set 	CLK_TRAN 				1
+set 	CLK_TRAN 				        1
 
-set 	IN_DELAY_MASTER 			3
-set 	OUT_DELAY_MASTER 			3
+set 	IN_DELAY_MASTER 			    3
+set 	OUT_DELAY_MASTER 			    3
 
-set 	IN_TRAN 				0.5
-set 	OUT_LOAD 				15
+set 	IN_TRAN 				        0.5
+set 	OUT_LOAD 				        15
 
-set 	MAX_FANOUT   				15
-set 	MAX_CAP     				0.25	
-set    MAX_TRAN                        	2.4	
+set 	MAX_FANOUT   				    15
+set 	MAX_CAP     				    0.25	
+set     MAX_TRAN                        2.4	
 reset_design
-#============================================= CLK  DEFINITION ===========================================#               
+#============================================= CLK  DEFINITION ===========================================#
+set_case_analysis 	0 	[get_ports test_mode]               
 create_clock -period 	$CLK_HFEXTCLK_PERIOD 	-name hfextclk	 				[get_ports  hfextclk]
 create_clock -period 	$CLK_LFEXTCLK_PERIOD	-name lfextclk					[get_ports  lfextclk]
 create_clock -period 	$CLK_JTAGCLK_PERIOD	-name	JTAG_CLK					[get_ports	io_pads_jtag_TCK_i_ival]
@@ -102,4 +103,5 @@ set_max_capacitance 			$MAX_CAP 		$ALL_EX_OUT_IN
 #============================================= TIMING EXCEPTION  ===========================================#	
 
 set	timing_non_unate_clock_compatibility  true
-set 	enable_recovery_removal_arcs true																		
+set 	enable_recovery_removal_arcs true
+set_ideal_network       [get_pins u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_hclkgen/u_CLKMUX2/Z]																

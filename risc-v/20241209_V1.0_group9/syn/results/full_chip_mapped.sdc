@@ -1,6 +1,6 @@
 ###################################################################
 
-# Created by write_sdc on Wed Dec 25 06:25:18 2024
+# Created by write_sdc on Mon Dec 30 23:57:52 2024
 
 ###################################################################
 set sdc_version 2.1
@@ -16,6 +16,7 @@ set_load -pin_load 15 [get_ports io_pads_qspi0_sck_o_oval]
 set_load -pin_load 15 [get_ports io_pads_qspi0_cs_0_o_oval]
 set_load -pin_load 15 [get_ports io_pads_aon_pmu_padrst_o_oval]
 set_load -pin_load 15 [get_ports io_pads_aon_pmu_vddpaden_o_oval]
+set_case_analysis 0 [get_ports test_mode]
 create_clock [get_ports hfextclk]  -period 50  -waveform {0 25}
 set_clock_latency 4  [get_clocks hfextclk]
 set_clock_latency -source 2  [get_clocks hfextclk]
@@ -48,6 +49,8 @@ set_clock_transition -max -rise 1 [get_clocks rst_n]
 set_clock_transition -max -fall 1 [get_clocks rst_n]
 set_clock_transition -min -rise 1 [get_clocks rst_n]
 set_clock_transition -min -fall 1 [get_clocks rst_n]
+set_input_delay -clock hfextclk  3  [get_ports test_mode]
+set_input_delay -clock lfextclk  3  -add_delay  [get_ports test_mode]
 set_input_delay -clock JTAG_CLK  3  [get_ports io_pads_jtag_TMS_i_ival]
 set_input_delay -clock JTAG_CLK  3  [get_ports io_pads_jtag_TDI_i_ival]
 set_input_delay -clock hfextclk  3  [get_ports {io_pads_gpioA[31]}]
@@ -123,8 +126,6 @@ set_input_delay -clock lfextclk  3  [get_ports io_pads_dbgmode1_n_i_ival]
 set_input_delay -clock lfextclk  3  [get_ports io_pads_dbgmode2_n_i_ival]
 set_input_delay -clock lfextclk  3  [get_ports io_pads_bootrom_n_i_ival]
 set_input_delay -clock lfextclk  3  [get_ports io_pads_aon_pmu_dwakeup_n_i_ival]
-set_input_delay -clock hfextclk  3  [get_ports test_mode]
-set_input_delay -clock lfextclk  3  -add_delay  [get_ports test_mode]
 set_output_delay -clock hfextclk  3  [get_ports hfxoscen]
 set_output_delay -clock lfextclk  3  [get_ports lfxoscen]
 set_output_delay -clock JTAG_CLK  3  [get_ports io_pads_jtag_TDO_o]

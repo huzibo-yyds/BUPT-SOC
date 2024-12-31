@@ -3,7 +3,7 @@
 Report : cell
 Design : full_chip
 Version: O-2018.06-SP1
-Date   : Wed Dec 25 06:25:18 2024
+Date   : Mon Dec 30 23:57:52 2024
 ****************************************
 
 Attributes:
@@ -261,7 +261,7 @@ gpioB_30__u_pad_gpioBX    PB8             SP018_V1p4_max  8000.000000
                                                                     n
 gpioB_31__u_pad_gpioBX    PB8             SP018_V1p4_max  8000.000000
                                                                     n
-u_e203_soc_top            e203_soc_top                    5379073.226255
+u_e203_soc_top            e203_soc_top                    5378785.341474
                                                                     b, h, n
 u_pad_hfextclk            PI              SP018_V1p4_max  8000.000000
                                                                     d
@@ -310,5 +310,5 @@ u_pad_lfextclk            PI              SP018_V1p4_max  8000.000000
                                                                     d
 u_pad_lfxoscen            PO4             SP018_V1p4_max  8000.000000
 --------------------------------------------------------------------------------
-Total 145 cells                                           6067400.624666
+Total 145 cells                                           6067112.739885
 1

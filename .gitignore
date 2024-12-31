@@ -1,1 +1,5 @@
 lib/
+risc-v/20241209_V1.0_group9/pre_sim(fill_chip)
+risc-v/20241209_V1.0_group9/pre_sim(memory)
+risc-v/20241209_V1.0_group9/pre_sim(test_mode)
+risc-v/20241209_V1.0_group9/pre_sim(clock)
