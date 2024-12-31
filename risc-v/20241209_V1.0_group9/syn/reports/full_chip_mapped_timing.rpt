@@ -8,7 +8,7 @@ Report : timing
         -transition_time
 Design : full_chip
 Version: O-2018.06-SP1
-Date   : Mon Dec 30 23:57:52 2024
+Date   : Tue Dec 31 00:25:16 2024
 ****************************************
 
  # A fanout number of 1000 was used for high fanout net computations.
@@ -35,7 +35,7 @@ Attributes:
   ---------------------------------------------------------------------------------------------------------
   clock hfextclk (rise edge)                                      950.00     950.00
   clock network delay (ideal)                                       6.00     956.00
-  u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/u_dm2dtm_cdc_tx/vld_dfflr/qout_r_reg_0_/CK (DRNQUHDV1)     1.00     0.00 #   956.00 r
+  u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/u_dm2dtm_cdc_tx/vld_dfflr/qout_r_reg_0_/CK (DRNQUHDV1)     1.00     0.00 #   956.00 r i 
   u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/u_dm2dtm_cdc_tx/vld_dfflr/qout_r_reg_0_/Q (DRNQUHDV1)     0.15     0.64   956.64 r
   u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/u_dm2dtm_cdc_tx/vld_dfflr/qout[0] (net)     4     0.00   956.64 r
   u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/u_dm2dtm_cdc_tx/vld_dfflr/qout[0] (sirv_gnrl_dfflr_DW1_150)     0.00   956.64 r
@@ -55,15 +55,15 @@ Attributes:
 
   clock JTAG_CLK (rise edge)                                     1000.00    1000.00
   clock network delay (ideal)                                       6.00    1006.00
-  clock uncertainty                                                -0.50    1005.50
-  u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/jtag_dtm_gen_u_sirv_jtag_dtm/u_jtag2debug_cdc_rx/u_i_vld_sync/sync_gen_0__i_is_0_sync_dffr/qout_r_reg_0_/CK (DRNQUHDV0P7)     0.00  1005.50 r
-  library setup time                                               -0.13    1005.37
-  data required time                                                        1005.37
+  clock uncertainty                                                -1.00    1005.00
+  u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/jtag_dtm_gen_u_sirv_jtag_dtm/u_jtag2debug_cdc_rx/u_i_vld_sync/sync_gen_0__i_is_0_sync_dffr/qout_r_reg_0_/CK (DRNQUHDV0P7)     0.00  1005.00 r
+  library setup time                                               -0.13    1004.87
+  data required time                                                        1004.87
   ---------------------------------------------------------------------------------------------------------
-  data required time                                                        1005.37
+  data required time                                                        1004.87
   data arrival time                                                         -956.64
   ---------------------------------------------------------------------------------------------------------
-  slack (MET)                                                                 48.73
+  slack (MET)                                                                 48.23
 
 
   Startpoint: u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_main_ResetCatchAndSync_2_1/reset_n_catch_reg/reg_0/q_reg
@@ -85,7 +85,7 @@ Attributes:
   ---------------------------------------------------------------------------------------------------------
   clock hfextclk (rise edge)                                        0.00       0.00
   clock network delay (ideal)                                       6.00       6.00
-  u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_main_ResetCatchAndSync_2_1/reset_n_catch_reg/reg_0/q_reg/CK (DRQUHDV1)     1.00     0.00 #     6.00 r
+  u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_main_ResetCatchAndSync_2_1/reset_n_catch_reg/reg_0/q_reg/CK (DRQUHDV1)     1.00     0.00 #     6.00 r i 
   u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_main_ResetCatchAndSync_2_1/reset_n_catch_reg/reg_0/q_reg/Q (DRQUHDV1)     0.08     0.55     6.55 r
   u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_main_ResetCatchAndSync_2_1/reset_n_catch_reg/reg_0/q (net)     1     0.00     6.55 r
   u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_main_ResetCatchAndSync_2_1/reset_n_catch_reg/reg_0/q (sirv_AsyncResetReg_59)     0.00     6.55 r
@@ -115,15 +115,15 @@ Attributes:
 
   clock hfextclk (rise edge)                                       50.00      50.00
   clock network delay (ideal)                                       6.00      56.00
-  clock uncertainty                                                -0.50      55.50
-  u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_clint/u_sirv_clint_top/u_sirv_clint/ipi_0_reg/CK (DRQUHDV0P7)     0.00    55.50 r
-  library recovery time                                            -0.16      55.34
-  data required time                                                          55.34
+  clock uncertainty                                                -1.00      55.00
+  u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_clint/u_sirv_clint_top/u_sirv_clint/ipi_0_reg/CK (DRQUHDV0P7)     0.00    55.00 r
+  library recovery time                                            -0.16      54.84
+  data required time                                                          54.84
   ---------------------------------------------------------------------------------------------------------
-  data required time                                                          55.34
+  data required time                                                          54.84
   data arrival time                                                        -2869.93
   ---------------------------------------------------------------------------------------------------------
-  slack (VIOLATED)                                                         -2814.59
+  slack (VIOLATED)                                                         -2815.09
 
 
   Startpoint: u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/dm_halt_int_gen_0__dm_debint_dfflr/qout_r_reg_0_
@@ -145,7 +145,7 @@ Attributes:
   ---------------------------------------------------------------------------------------------------------
   clock hfextclk (rise edge)                                    19950.00   19950.00
   clock network delay (ideal)                                       6.00   19956.00
-  u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/dm_halt_int_gen_0__dm_debint_dfflr/qout_r_reg_0_/CK (DRNQUHDV1)     1.00     0.00 # 19956.00 r
+  u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/dm_halt_int_gen_0__dm_debint_dfflr/qout_r_reg_0_/CK (DRNQUHDV1)     1.00     0.00 # 19956.00 r i 
   u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/dm_halt_int_gen_0__dm_debint_dfflr/qout_r_reg_0_/Q (DRNQUHDV1)     0.15     0.64 19956.64 r
   u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/dm_halt_int_gen_0__dm_debint_dfflr/qout[0] (net)     4     0.00 19956.64 r
   u_e203_soc_top/u_e203_subsys_top/u_sirv_debug_module/dm_halt_int_gen_0__dm_debint_dfflr/qout[0] (sirv_gnrl_dfflr_DW1_156)     0.00 19956.64 r
@@ -187,14 +187,14 @@ Attributes:
 
   clock lfextclk (rise edge)                                    20000.00   20000.00
   clock network delay (ideal)                                       6.00   20006.00
-  clock uncertainty                                                -0.50   20005.50
-  output external delay                                            -3.00   20002.50
-  data required time                                                       20002.50
+  clock uncertainty                                                -1.00   20005.00
+  output external delay                                            -3.00   20002.00
+  data required time                                                       20002.00
   ---------------------------------------------------------------------------------------------------------
-  data required time                                                       20002.50
+  data required time                                                       20002.00
   data arrival time                                                        -19959.48
   ---------------------------------------------------------------------------------------------------------
-  slack (MET)                                                                 43.02
+  slack (MET)                                                                 42.52
 
 
 1
