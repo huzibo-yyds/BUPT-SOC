@@ -1,0 +1,6 @@
+@elabcom rc file Version 1.0
+[oh]
+invokeDir = /home/huzi/Soc/risc-v/20241209_V1.0_group9/pre_sim
+hostCommand = -lib simv.daidir/work -saveLevel -elab simv.daidir/kdb -simflow -simdir simv.daidir/kdb_libs -top "sirv_gnrl_ltch sirv_gnrl_icb32towishb8 sirv_gnrl_icb2ahbl sirv_gnrl_ram tb_top" -Lf work +disable_message+C00380+C00381 +disable_message+C00388+C00389 -SNPS_\
+ELABCOM -saveElab
+simType = VCS

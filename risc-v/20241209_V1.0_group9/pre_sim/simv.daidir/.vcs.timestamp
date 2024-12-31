@@ -103,8 +103,8 @@ IM_CONFIG_PHASE=2
 GTK_MODULES=gail:atk-bridge
 GTK_IM_MODULE=ibus
 GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
-GNOME_TERMINAL_SERVICE=:1.68
-GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/f8384c74_0a5f_4ed3_8512_935dae3a06bf
+GNOME_TERMINAL_SERVICE=:1.75
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/bbf285ef_a372_4ed3_95e2_4e3e07dba2b9
 GNOME_SHELL_SESSION_MODE=ubuntu
 GNOME_DESKTOP_SESSION_ID=this-is-deprecated
 GJS_DEBUG_TOPICS=JS ERROR;JS LOG
@@ -117,12 +117,12 @@ CPATH=/usr/include/x86_64-linux-gnu
 COLORTERM=truecolor
 CLUTTER_IM_MODULE=xim
 0
-145
+147
 1735045841 rtl/e203/perips/apb_i2c/i2c_master_defines.v
 1735045841 rtl/e203/core/config.v
 1735045841 rtl/e203/core/e203_defines.v
-1735047188 ./tb/tb_top.v
-1735045841 ./rtl/e203/subsys/e203_subsys_top.v
+1735115932 ./tb/tb_top.v
+1735112935 ./rtl/e203/subsys/e203_subsys_top.v
 1735045841 ./rtl/e203/subsys/e203_subsys_pll.v
 1735045841 ./rtl/e203/subsys/e203_subsys_pllclkdiv.v
 1735045841 ./rtl/e203/subsys/e203_subsys_plic.v
@@ -130,11 +130,11 @@ CLUTTER_IM_MODULE=xim
 1735045841 ./rtl/e203/subsys/e203_subsys_nice_core.v
 1735045841 ./rtl/e203/subsys/e203_subsys_mems.v
 1735045841 ./rtl/e203/subsys/e203_subsys_main.v
-1735045841 ./rtl/e203/subsys/e203_subsys_hclkgen.v
+1735124027 ./rtl/e203/subsys/e203_subsys_hclkgen.v
 1735045841 ./rtl/e203/subsys/e203_subsys_hclkgen_rstsync.v
-1735045841 ./rtl/e203/subsys/e203_subsys_gfcm.v
+1735123822 ./rtl/e203/subsys/e203_subsys_gfcm.v
 1735045841 ./rtl/e203/subsys/e203_subsys_clint.v
-1735045841 ./rtl/e203/soc/e203_soc_top.v
+1735115566 ./rtl/e203/soc/e203_soc_top.v
 1735045841 ./rtl/e203/perips/apb_uart/uart_tx.v
 1735045841 ./rtl/e203/perips/apb_uart/uart_rx.v
 1735045841 ./rtl/e203/perips/apb_uart/uart_interrupt.v
@@ -254,13 +254,15 @@ CLUTTER_IM_MODULE=xim
 1735045841 ./rtl/e203/core/e203_cpu.v
 1735045841 ./rtl/e203/core/e203_cpu_top.v
 1735045841 ./rtl/e203/core/e203_core.v
-1735045841 ./rtl/e203/core/e203_clkgate.v
+1735124327 ./rtl/e203/core/e203_clkgate.v
 1735045841 ./rtl/e203/core/e203_clk_ctrl.v
 1735045841 ./rtl/e203/core/e203_biu.v
-1735045841 ./rtl/e203/core/config.v
+1735115746 ./rtl/e203/core/full_chip.v
+1510959982 ../../../lib/SMIC180/SCC018UG_UHD_RVT_V0p4a/verilog/scc018ug_uhd_rvt.v
+1304620252 ../../../lib/SMIC180/SP018_V1.5b/SP018_V1p5b/SP018_V1p5b/verilog/SP018_V1p5a.v
 1023104344 ../../../lib/SMIC180/MEM_IP_20MHz/RA1SHD8192X64/RA1SHD8192X64.v
 1023108327 ../../../lib/SMIC180/MEM_IP_20MHz/RA1SHD8192X32/RA1SHD8192X32.v
-1735046637 e203_filelist.f
+1735124510 e203_filelist.f
 1550753332 /home/huzi/Env/verdi/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
 1551421246 /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcsdp_lite.tab
 4
@@ -268,5 +270,5 @@ CLUTTER_IM_MODULE=xim
 1551421792 /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib/liberrorinf.so
 1551421768 /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so
 1551421789 /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvfs.so
-1735047665 simv.daidir
+1735130532 simv.daidir
 -1 partitionlib

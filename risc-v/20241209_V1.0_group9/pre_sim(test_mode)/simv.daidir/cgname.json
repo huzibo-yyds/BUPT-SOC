@@ -1,0 +1,1364 @@
+{
+    "PVSS1ANP": [
+        "PVSS1ANP",
+        "qHgvU",
+        "module",
+        210
+    ],
+    "PBSUL24": [
+        "PBSUL24",
+        "q9xKk",
+        "module",
+        151
+    ],
+    "PVDD1": [
+        "PVDD1",
+        "rh2vn",
+        "module",
+        197
+    ],
+    "PBDL12": [
+        "PBDL12",
+        "AUYMb",
+        "module",
+        115
+    ],
+    "PBCDL24": [
+        "PBCDL24",
+        "Sb96D",
+        "module",
+        97
+    ],
+    "PBCDL16": [
+        "PBCDL16",
+        "QJxfH",
+        "module",
+        96
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "sirv_gnrl_icb_n2w_0000": [
+        "sirv_gnrl_icb_n2w_0000",
+        "YVQVr",
+        "module",
+        36
+    ],
+    "PBCUL24": [
+        "PBCUL24",
+        "AUedd",
+        "module",
+        107
+    ],
+    "sirv_hclkgen_regs": [
+        "sirv_hclkgen_regs",
+        "vEErM",
+        "module",
+        49
+    ],
+    "PBCU8": [
+        "PBCU8",
+        "ZpB7i",
+        "module",
+        104
+    ],
+    "e203_ifu_ift2icb": [
+        "e203_ifu_ift2icb",
+        "JHj7P",
+        "module",
+        18
+    ],
+    "PVSS1AP": [
+        "PVSS1AP",
+        "AQ3wd",
+        "module",
+        211
+    ],
+    "PANA1AP": [
+        "PANA1AP",
+        "g1u0i",
+        "module",
+        77
+    ],
+    "PBS12": [
+        "PBS12",
+        "JhN80",
+        "module",
+        123
+    ],
+    "e203_exu": [
+        "e203_exu",
+        "EmsKp",
+        "module",
+        16
+    ],
+    "PBCU16": [
+        "PBCU16",
+        "Qx1Zr",
+        "module",
+        100
+    ],
+    "PBS16": [
+        "PBS16",
+        "Bcc8h",
+        "module",
+        124
+    ],
+    "PBSDL16": [
+        "PBSDL16",
+        "e9pDw",
+        "module",
+        136
+    ],
+    "PANA2AP": [
+        "PANA2AP",
+        "SvagE",
+        "module",
+        79
+    ],
+    "PANA1AP1": [
+        "PANA1AP1",
+        "zejPc",
+        "module",
+        78
+    ],
+    "POT16": [
+        "POT16",
+        "FRQIw",
+        "module",
+        188
+    ],
+    "PBCD4": [
+        "PBCD4",
+        "f8bb0",
+        "module",
+        93
+    ],
+    "PVDD1ANP": [
+        "PVDD1ANP",
+        "F3Cpv",
+        "module",
+        198
+    ],
+    "PBD4": [
+        "PBD4",
+        "dRbzI",
+        "module",
+        113
+    ],
+    "PBD16": [
+        "PBD16",
+        "E1sK6",
+        "module",
+        110
+    ],
+    "PANA4AP": [
+        "PANA4AP",
+        "KY0hx",
+        "module",
+        82
+    ],
+    "PBSUL12": [
+        "PBSUL12",
+        "Egzpe",
+        "module",
+        149
+    ],
+    "POL12": [
+        "POL12",
+        "s8WP8",
+        "module",
+        183
+    ],
+    "PBDL24": [
+        "PBDL24",
+        "fV1xB",
+        "module",
+        117
+    ],
+    "PANA2AP1": [
+        "PANA2AP1",
+        "InspH",
+        "module",
+        80
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        76
+    ],
+    "sirv_aon_lclkgen_regs": [
+        "sirv_aon_lclkgen_regs",
+        "IB8ZZ",
+        "module",
+        43
+    ],
+    "PANA3AP": [
+        "PANA3AP",
+        "vGPHw",
+        "module",
+        81
+    ],
+    "PBSD24": [
+        "PBSD24",
+        "S5Rc8",
+        "module",
+        132
+    ],
+    "PB12": [
+        "PB12",
+        "qwEUq",
+        "module",
+        83
+    ],
+    "PICU": [
+        "PICU",
+        "epAEG",
+        "module",
+        171
+    ],
+    "PBSD12": [
+        "PBSD12",
+        "SwaxL",
+        "module",
+        129
+    ],
+    "PVDD1CAP": [
+        "PVDD1CAP",
+        "pIgkn",
+        "module",
+        201
+    ],
+    "sirv_gnrl_ltch": [
+        "sirv_gnrl_ltch",
+        "UTi0b",
+        "module",
+        34
+    ],
+    "PBL12": [
+        "PBL12",
+        "Z795M",
+        "module",
+        119
+    ],
+    "PB16": [
+        "PB16",
+        "SKbjR",
+        "module",
+        84
+    ],
+    "e203_exu_decode": [
+        "e203_exu_decode",
+        "Av0PY",
+        "module",
+        12
+    ],
+    "PB2": [
+        "PB2",
+        "P0ZRE",
+        "module",
+        85
+    ],
+    "PBCD12": [
+        "PBCD12",
+        "c7KJr",
+        "module",
+        89
+    ],
+    "POTL16": [
+        "POTL16",
+        "T9FGK",
+        "module",
+        194
+    ],
+    "PB24": [
+        "PB24",
+        "Zseyc",
+        "module",
+        86
+    ],
+    "spi_master_fifo": [
+        "spi_master_fifo",
+        "GMeK8",
+        "module",
+        68
+    ],
+    "PB4": [
+        "PB4",
+        "Mce6P",
+        "module",
+        87
+    ],
+    "PBCD2": [
+        "PBCD2",
+        "Czbvi",
+        "module",
+        91
+    ],
+    "PBSD8": [
+        "PBSD8",
+        "R5u98",
+        "module",
+        134
+    ],
+    "PDIODE": [
+        "PDIODE",
+        "gzfk5",
+        "module",
+        167
+    ],
+    "PIS": [
+        "PIS",
+        "jwAGA",
+        "module",
+        173
+    ],
+    "PBSD16": [
+        "PBSD16",
+        "K4UHh",
+        "module",
+        130
+    ],
+    "PBCDL12": [
+        "PBCDL12",
+        "fm9JC",
+        "module",
+        95
+    ],
+    "PB8": [
+        "PB8",
+        "T6Kt5",
+        "module",
+        88
+    ],
+    "PVDD5AP": [
+        "PVDD5AP",
+        "rS4rC",
+        "module",
+        208
+    ],
+    "PBCD16": [
+        "PBCD16",
+        "B5fD4",
+        "module",
+        90
+    ],
+    "e203_subsys_plic": [
+        "e203_subsys_plic",
+        "tzTUw",
+        "module",
+        74
+    ],
+    "PBCD24": [
+        "PBCD24",
+        "Rwy7G",
+        "module",
+        92
+    ],
+    "PVDD1AP1": [
+        "PVDD1AP1",
+        "Gc9VI",
+        "module",
+        200
+    ],
+    "PISU": [
+        "PISU",
+        "gyTDE",
+        "module",
+        175
+    ],
+    "sirv_wdog": [
+        "sirv_wdog",
+        "EfMb9",
+        "module",
+        61
+    ],
+    "PBCU12": [
+        "PBCU12",
+        "rMf1C",
+        "module",
+        99
+    ],
+    "POL16": [
+        "POL16",
+        "JQ1gt",
+        "module",
+        184
+    ],
+    "PBCU2": [
+        "PBCU2",
+        "ZaZ1C",
+        "module",
+        101
+    ],
+    "sirv_AsyncResetRegVec": [
+        "sirv_AsyncResetRegVec",
+        "f1KhP",
+        "module",
+        46
+    ],
+    "PBCD8": [
+        "PBCD8",
+        "v1jna",
+        "module",
+        94
+    ],
+    "PBCDL8": [
+        "PBCDL8",
+        "wYmxR",
+        "module",
+        98
+    ],
+    "PBCU24": [
+        "PBCU24",
+        "hJtPY",
+        "module",
+        102
+    ],
+    "PBSU16": [
+        "PBSU16",
+        "N2fsG",
+        "module",
+        144
+    ],
+    "PBUL12": [
+        "PBUL12",
+        "CRvYt",
+        "module",
+        159
+    ],
+    "sirv_expl_axi_slv": [
+        "sirv_expl_axi_slv",
+        "iskzD",
+        "module",
+        47
+    ],
+    "PBCUL8": [
+        "PBCUL8",
+        "eWHv1",
+        "module",
+        108
+    ],
+    "PCI6BS": [
+        "PCI6BS",
+        "kt5jj",
+        "module",
+        166
+    ],
+    "e203_clk_ctrl": [
+        "e203_clk_ctrl",
+        "yED7S",
+        "module",
+        2
+    ],
+    "PBCU4": [
+        "PBCU4",
+        "jAP3n",
+        "module",
+        103
+    ],
+    "PVSS1": [
+        "PVSS1",
+        "cSZFF",
+        "module",
+        209
+    ],
+    "PCI6B": [
+        "PCI6B",
+        "QPf2k",
+        "module",
+        165
+    ],
+    "PBCUL12": [
+        "PBCUL12",
+        "f5xFw",
+        "module",
+        105
+    ],
+    "PBD8": [
+        "PBD8",
+        "YBC0t",
+        "module",
+        114
+    ],
+    "PBSD2": [
+        "PBSD2",
+        "UVuM9",
+        "module",
+        131
+    ],
+    "PBCUL16": [
+        "PBCUL16",
+        "iTu7A",
+        "module",
+        106
+    ],
+    "PBL16": [
+        "PBL16",
+        "EinPJ",
+        "module",
+        120
+    ],
+    "POT24": [
+        "POT24",
+        "EhYUV",
+        "module",
+        190
+    ],
+    "sirv_gnrl_fifo_0002_0000": [
+        "sirv_gnrl_fifo_0002_0000",
+        "TTSjj",
+        "module",
+        32
+    ],
+    "PBD12": [
+        "PBD12",
+        "Uxri8",
+        "module",
+        109
+    ],
+    "sirv_gnrl_pipe_stage_0000": [
+        "sirv_gnrl_pipe_stage_0000",
+        "dIYxP",
+        "module",
+        29
+    ],
+    "sirv_debug_ram_0000": [
+        "sirv_debug_ram_0000",
+        "acEjW",
+        "module",
+        26
+    ],
+    "PBD2": [
+        "PBD2",
+        "f3nrm",
+        "module",
+        111
+    ],
+    "PBU16": [
+        "PBU16",
+        "REk6z",
+        "module",
+        154
+    ],
+    "PBD24": [
+        "PBD24",
+        "z7zYP",
+        "module",
+        112
+    ],
+    "PBSDL12": [
+        "PBSDL12",
+        "ZTcHS",
+        "module",
+        135
+    ],
+    "PBDL16": [
+        "PBDL16",
+        "bpE2A",
+        "module",
+        116
+    ],
+    "POL8": [
+        "POL8",
+        "QET2u",
+        "module",
+        186
+    ],
+    "PBDL8": [
+        "PBDL8",
+        "S3RR5",
+        "module",
+        118
+    ],
+    "PBL24": [
+        "PBL24",
+        "hhzf1",
+        "module",
+        121
+    ],
+    "PBL8": [
+        "PBL8",
+        "F5B4r",
+        "module",
+        122
+    ],
+    "PVDD1CAP1": [
+        "PVDD1CAP1",
+        "tM0p6",
+        "module",
+        202
+    ],
+    "sirv_aon_top": [
+        "sirv_aon_top",
+        "cgMtV",
+        "module",
+        45
+    ],
+    "POT12": [
+        "POT12",
+        "QBUUL",
+        "module",
+        187
+    ],
+    "sirv_qspi_flashmap": [
+        "sirv_qspi_flashmap",
+        "Y9g88",
+        "module",
+        60
+    ],
+    "sirv_icb1to16_bus": [
+        "sirv_icb1to16_bus",
+        "qknGn",
+        "module",
+        28
+    ],
+    "PBS2": [
+        "PBS2",
+        "qFwyv",
+        "module",
+        125
+    ],
+    "PBS24": [
+        "PBS24",
+        "Id6M4",
+        "module",
+        126
+    ],
+    "POTL8": [
+        "POTL8",
+        "sJ7Ct",
+        "module",
+        196
+    ],
+    "PBS4": [
+        "PBS4",
+        "xEiS6",
+        "module",
+        127
+    ],
+    "PBU8": [
+        "PBU8",
+        "FnKcS",
+        "module",
+        158
+    ],
+    "PBS8": [
+        "PBS8",
+        "wF0D5",
+        "module",
+        128
+    ],
+    "PBSDL8": [
+        "PBSDL8",
+        "SM27Z",
+        "module",
+        138
+    ],
+    "PBSD4": [
+        "PBSD4",
+        "QmIm2",
+        "module",
+        133
+    ],
+    "PBSDL24": [
+        "PBSDL24",
+        "dtvbc",
+        "module",
+        137
+    ],
+    "POT4": [
+        "POT4",
+        "U6vhT",
+        "module",
+        191
+    ],
+    "PBSL12": [
+        "PBSL12",
+        "x7iCh",
+        "module",
+        139
+    ],
+    "e203_subsys_clint": [
+        "e203_subsys_clint",
+        "IS11u",
+        "module",
+        70
+    ],
+    "sirv_flash_qspi": [
+        "sirv_flash_qspi",
+        "Bfwgn",
+        "module",
+        48
+    ],
+    "PBSL16": [
+        "PBSL16",
+        "jvPgp",
+        "module",
+        140
+    ],
+    "PBSL24": [
+        "PBSL24",
+        "pgr9n",
+        "module",
+        141
+    ],
+    "PBSL8": [
+        "PBSL8",
+        "PWzpR",
+        "module",
+        142
+    ],
+    "PBSU12": [
+        "PBSU12",
+        "AT3Ls",
+        "module",
+        143
+    ],
+    "PISD": [
+        "PISD",
+        "vq9rF",
+        "module",
+        174
+    ],
+    "POT2": [
+        "POT2",
+        "KAEpI",
+        "module",
+        189
+    ],
+    "PBSU2": [
+        "PBSU2",
+        "Qv8IJ",
+        "module",
+        145
+    ],
+    "e203_subsys_mems": [
+        "e203_subsys_mems",
+        "Bv14t",
+        "module",
+        72
+    ],
+    "PBSU24": [
+        "PBSU24",
+        "NcsBs",
+        "module",
+        146
+    ],
+    "PBSU8": [
+        "PBSU8",
+        "Mhh7b",
+        "module",
+        148
+    ],
+    "sirv_debug_module_0000": [
+        "sirv_debug_module_0000",
+        "gR9h2",
+        "module",
+        25
+    ],
+    "PVDD4AP": [
+        "PVDD4AP",
+        "nCMaK",
+        "module",
+        207
+    ],
+    "PBU4": [
+        "PBU4",
+        "wKPxy",
+        "module",
+        157
+    ],
+    "PBSU4": [
+        "PBSU4",
+        "kD65Q",
+        "module",
+        147
+    ],
+    "PBSUL16": [
+        "PBSUL16",
+        "CE7C7",
+        "module",
+        150
+    ],
+    "POTL12": [
+        "POTL12",
+        "TzRu6",
+        "module",
+        193
+    ],
+    "PBSUL8": [
+        "PBSUL8",
+        "JtqWv",
+        "module",
+        152
+    ],
+    "PBU12": [
+        "PBU12",
+        "cDTGa",
+        "module",
+        153
+    ],
+    "PVDD1AP": [
+        "PVDD1AP",
+        "yPpk5",
+        "module",
+        199
+    ],
+    "PBU2": [
+        "PBU2",
+        "agJUx",
+        "module",
+        155
+    ],
+    "PBU24": [
+        "PBU24",
+        "UTURY",
+        "module",
+        156
+    ],
+    "e203_exu_csr": [
+        "e203_exu_csr",
+        "IADfU",
+        "module",
+        11
+    ],
+    "PBUL16": [
+        "PBUL16",
+        "BmTH3",
+        "module",
+        160
+    ],
+    "apb_i2c": [
+        "apb_i2c",
+        "DUUHd",
+        "module",
+        66
+    ],
+    "PBUL24": [
+        "PBUL24",
+        "wwY1h",
+        "module",
+        161
+    ],
+    "PBUL8": [
+        "PBUL8",
+        "pWPFq",
+        "module",
+        162
+    ],
+    "PCI3B": [
+        "PCI3B",
+        "NuDTE",
+        "module",
+        163
+    ],
+    "PVDD3CAP": [
+        "PVDD3CAP",
+        "gVe6V",
+        "module",
+        206
+    ],
+    "PCI3BS": [
+        "PCI3BS",
+        "EM8av",
+        "module",
+        164
+    ],
+    "PDIODE8": [
+        "PDIODE8",
+        "L8wDf",
+        "module",
+        168
+    ],
+    "PI": [
+        "PI",
+        "UE1nb",
+        "module",
+        169
+    ],
+    "PICD": [
+        "PICD",
+        "eSpyY",
+        "module",
+        170
+    ],
+    "sirv_qspi_fifo": [
+        "sirv_qspi_fifo",
+        "InfCa",
+        "module",
+        53
+    ],
+    "e203_exu_disp": [
+        "e203_exu_disp",
+        "cYskE",
+        "module",
+        13
+    ],
+    "PID": [
+        "PID",
+        "KnCbV",
+        "module",
+        172
+    ],
+    "PVDD2": [
+        "PVDD2",
+        "qTP2v",
+        "module",
+        203
+    ],
+    "PIU": [
+        "PIU",
+        "bszYy",
+        "module",
+        176
+    ],
+    "PO2": [
+        "PO2",
+        "CepUG",
+        "module",
+        179
+    ],
+    "PO12": [
+        "PO12",
+        "DRkPn",
+        "module",
+        177
+    ],
+    "e203_cpu_top": [
+        "e203_cpu_top",
+        "GYZf7",
+        "module",
+        4
+    ],
+    "PO16": [
+        "PO16",
+        "wRJvq",
+        "module",
+        178
+    ],
+    "PO24": [
+        "PO24",
+        "ZME68",
+        "module",
+        180
+    ],
+    "e203_clkgate": [
+        "e203_clkgate",
+        "hUMUg",
+        "module",
+        3
+    ],
+    "PO4": [
+        "PO4",
+        "bPG3j",
+        "module",
+        181
+    ],
+    "sirv_gnrl_icb2ahbl": [
+        "sirv_gnrl_icb2ahbl",
+        "gfIti",
+        "module",
+        39
+    ],
+    "e203_irq_sync_0000": [
+        "e203_irq_sync_0000",
+        "SeKL1",
+        "module",
+        20
+    ],
+    "PO8": [
+        "PO8",
+        "mDYvU",
+        "module",
+        182
+    ],
+    "POL24": [
+        "POL24",
+        "nqPaU",
+        "module",
+        185
+    ],
+    "POT8": [
+        "POT8",
+        "pRSbu",
+        "module",
+        192
+    ],
+    "POTL24": [
+        "POTL24",
+        "Tz9NQ",
+        "module",
+        195
+    ],
+    "PVSS3AP": [
+        "PVSS3AP",
+        "F9xqg",
+        "module",
+        218
+    ],
+    "PVDD2AP": [
+        "PVDD2AP",
+        "qgBu1",
+        "module",
+        204
+    ],
+    "PVDD3AP": [
+        "PVDD3AP",
+        "L73at",
+        "module",
+        205
+    ],
+    "PVSS1AP1": [
+        "PVSS1AP1",
+        "BrMfG",
+        "module",
+        212
+    ],
+    "PVSS1CAP": [
+        "PVSS1CAP",
+        "BhmNf",
+        "module",
+        213
+    ],
+    "PVSS1CAP1": [
+        "PVSS1CAP1",
+        "v7Wd9",
+        "module",
+        214
+    ],
+    "PVSS2": [
+        "PVSS2",
+        "Dmp6W",
+        "module",
+        215
+    ],
+    "PVSS2AP": [
+        "PVSS2AP",
+        "Jwbvj",
+        "module",
+        216
+    ],
+    "e203_srams": [
+        "e203_srams",
+        "ktfkw",
+        "module",
+        24
+    ],
+    "PVSS3": [
+        "PVSS3",
+        "s6pcD",
+        "module",
+        217
+    ],
+    "PVSS3CAP": [
+        "PVSS3CAP",
+        "E8yB4",
+        "module",
+        219
+    ],
+    "PVSS4AP": [
+        "PVSS4AP",
+        "PczPr",
+        "module",
+        220
+    ],
+    "sirv_pmu": [
+        "sirv_pmu",
+        "SJRjz",
+        "module",
+        51
+    ],
+    "PVSS5AP": [
+        "PVSS5AP",
+        "xCafY",
+        "module",
+        221
+    ],
+    "PX1": [
+        "PX1",
+        "qEB6Q",
+        "module",
+        222
+    ],
+    "PX2": [
+        "PX2",
+        "MxpqU",
+        "module",
+        223
+    ],
+    "PX3": [
+        "PX3",
+        "hhYY8",
+        "module",
+        224
+    ],
+    "PXWE1": [
+        "PXWE1",
+        "M7E19",
+        "module",
+        225
+    ],
+    "apb_uart_sv": [
+        "apb_uart_sv",
+        "ZB8bA",
+        "module",
+        69
+    ],
+    "PXWE2": [
+        "PXWE2",
+        "SFiwm",
+        "module",
+        226
+    ],
+    "PXWE3": [
+        "PXWE3",
+        "B6wrF",
+        "module",
+        227
+    ],
+    "e203_dtcm_ctrl": [
+        "e203_dtcm_ctrl",
+        "DftYu",
+        "module",
+        5
+    ],
+    "e203_exu_alu_bjp": [
+        "e203_exu_alu_bjp",
+        "h9kax",
+        "module",
+        6
+    ],
+    "sirv_ResetCatchAndSync": [
+        "sirv_ResetCatchAndSync",
+        "V0U0n",
+        "module",
+        58
+    ],
+    "e203_exu_alu_csrctrl": [
+        "e203_exu_alu_csrctrl",
+        "HQM4r",
+        "module",
+        7
+    ],
+    "e203_exu_alu_dpath": [
+        "e203_exu_alu_dpath",
+        "WvjcP",
+        "module",
+        8
+    ],
+    "e203_exu_alu_rglr": [
+        "e203_exu_alu_rglr",
+        "K0tF5",
+        "module",
+        9
+    ],
+    "e203_exu_commit": [
+        "e203_exu_commit",
+        "jtFAn",
+        "module",
+        10
+    ],
+    "e203_exu_longpwbck": [
+        "e203_exu_longpwbck",
+        "Wwk53",
+        "module",
+        14
+    ],
+    "e203_exu_regfile_0000": [
+        "e203_exu_regfile_0000",
+        "bmIqA",
+        "module",
+        15
+    ],
+    "apb_adv_timer": [
+        "apb_adv_timer",
+        "PUfqk",
+        "module",
+        62
+    ],
+    "e203_exu_wbck": [
+        "e203_exu_wbck",
+        "vrSPU",
+        "module",
+        17
+    ],
+    "e203_ifu": [
+        "e203_ifu",
+        "wyN57",
+        "module",
+        19
+    ],
+    "e203_itcm_ctrl": [
+        "e203_itcm_ctrl",
+        "Grwvt",
+        "module",
+        21
+    ],
+    "e203_lsu": [
+        "e203_lsu",
+        "CayIR",
+        "module",
+        22
+    ],
+    "e203_reset_ctrl_0000": [
+        "e203_reset_ctrl_0000",
+        "tMFi6",
+        "module",
+        23
+    ],
+    "sirv_debug_rom": [
+        "sirv_debug_rom",
+        "juYYc",
+        "module",
+        27
+    ],
+    "sirv_gnrl_pipe_stage_0001_0001": [
+        "sirv_gnrl_pipe_stage_0001_0001",
+        "waHV9",
+        "module",
+        30
+    ],
+    "sirv_gnrl_pipe_stage_0001_0002": [
+        "sirv_gnrl_pipe_stage_0001_0002",
+        "AurmS",
+        "module",
+        31
+    ],
+    "sirv_gnrl_fifo_0002_0001": [
+        "sirv_gnrl_fifo_0002_0001",
+        "AERgp",
+        "module",
+        33
+    ],
+    "sirv_gnrl_icb_buffer_0000": [
+        "sirv_gnrl_icb_buffer_0000",
+        "fdYnY",
+        "module",
+        35
+    ],
+    "sirv_gnrl_icb32towishb8": [
+        "sirv_gnrl_icb32towishb8",
+        "Fsvhg",
+        "module",
+        37
+    ],
+    "sirv_gnrl_icb2apb": [
+        "sirv_gnrl_icb2apb",
+        "ftBvI",
+        "module",
+        38
+    ],
+    "sirv_gnrl_axi_buffer": [
+        "sirv_gnrl_axi_buffer",
+        "vudJa",
+        "module",
+        40
+    ],
+    "sirv_gnrl_ram": [
+        "sirv_gnrl_ram",
+        "NZSqP",
+        "module",
+        41
+    ],
+    "sirv_gnrl_xchecker": [
+        "sirv_gnrl_xchecker",
+        "CjC7H",
+        "module",
+        42
+    ],
+    "sirv_aon_porrst": [
+        "sirv_aon_porrst",
+        "BQabA",
+        "module",
+        44
+    ],
+    "sirv_jtaggpioport": [
+        "sirv_jtaggpioport",
+        "udmt7",
+        "module",
+        50
+    ],
+    "sirv_qspi_arbiter": [
+        "sirv_qspi_arbiter",
+        "jhGfw",
+        "module",
+        52
+    ],
+    "sirv_qspi_media": [
+        "sirv_qspi_media",
+        "PHSTm",
+        "module",
+        54
+    ],
+    "sirv_queue_1": [
+        "sirv_queue_1",
+        "gxDZF",
+        "module",
+        55
+    ],
+    "sirv_queue": [
+        "sirv_queue",
+        "J4sYN",
+        "module",
+        56
+    ],
+    "sirv_ResetCatchAndSync_2": [
+        "sirv_ResetCatchAndSync_2",
+        "z45m5",
+        "module",
+        57
+    ],
+    "sirv_rtc": [
+        "sirv_rtc",
+        "kjRSi",
+        "module",
+        59
+    ],
+    "comparator": [
+        "comparator",
+        "U57Qt",
+        "module",
+        63
+    ],
+    "timer_module": [
+        "timer_module",
+        "ZUDr8",
+        "module",
+        64
+    ],
+    "apb_gpio": [
+        "apb_gpio",
+        "FVB3U",
+        "module",
+        65
+    ],
+    "apb_spi_master": [
+        "apb_spi_master",
+        "ftnmP",
+        "module",
+        67
+    ],
+    "e203_subsys_hclkgen": [
+        "e203_subsys_hclkgen",
+        "jY9AH",
+        "module",
+        71
+    ],
+    "e203_subsys_nice_core_0000": [
+        "e203_subsys_nice_core_0000",
+        "fN8LT",
+        "module",
+        73
+    ],
+    "tb_top": [
+        "tb_top",
+        "jdPWL",
+        "module",
+        75
+    ]
+}

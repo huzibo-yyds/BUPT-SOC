@@ -9,9 +9,9 @@ synopsys::dump -autoflush on -fid VPD0
 set ::dve_fid VPD0
 synUtils::setDVEInitPhase 0
 ucliCore::getToolPID
-synUtils::sendTool -active _icl_setToolSocket /tmp/smlnppi3p25
-synUtils::sendTool -active {_icl_start_rpc -version "O-2018.09-SP2_Full64" -sync_file /tmp/vcs_dve_rpc.huzi.11712}
-synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.huzi.11712}
+synUtils::sendTool -active _icl_setToolSocket /tmp/smlnp0D9FyQ
+synUtils::sendTool -active {_icl_start_rpc -version "O-2018.09-SP2_Full64" -sync_file /tmp/vcs_dve_rpc.huzi.113153}
+synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.huzi.113153}
 config endofsim noexit
 config onfail enable all
 config syscaddplainmembers

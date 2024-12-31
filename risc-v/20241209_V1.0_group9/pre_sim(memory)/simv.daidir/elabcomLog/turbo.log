@@ -1,0 +1,7 @@
+Command Line: /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/bin/elabcom -logdir simv.daidir/elabcomLog -simvdaidir simv.daidir -lib simv.daidir/work -saveLevel -elab simv.daidir/kdb -simflow -simdir simv.daidir/kdb_libs -top sirv_gnrl_ltch sirv_gnrl_icb32towishb8 sirv_gnrl_icb2ahbl sirv_gnrl_ram tb_top -ssv -ssy -Lf work +disable_message+C00380+C00381 +disable_message+C00388+C00389
+uname(Linux ubuntu 5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023 x86_64)
+[INFO] error/warning message 'C00380' has been suppressed.
+[INFO] error/warning message 'C00381' has been suppressed.
+[INFO] error/warning message 'C00388' has been suppressed.
+[INFO] error/warning message 'C00389' has been suppressed.
+au time 0.184940 0.133937 0.047613 delta 118292480 118292480 total 215588864 215588864

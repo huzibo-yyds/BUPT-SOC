@@ -1,7 +1,7 @@
 Notice: timing checks disabled with +notimingcheck at compile-time
 Chronologic VCS simulator copyright 1991-2018
 Contains Synopsys proprietary information.
-Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Dec 24 05:38 2024
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Dec 25 03:02 2024
 VCD+ Writer O-2018.09-SP2_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
 The design has assertions or cover properties.
 The assertion browser can be used to view them. Click on the assertion toolbar button or use the menu 'Window->Panes->Assertion' to open it.
@@ -20,6 +20,7 @@ ITCM 0x20: 2f8300052f03f065
 *Verdi* Loading libsscore_vcs201809.so
 FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
 (C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
 *Verdi* : Create FSDB file 'e203.fsdb'
 *Verdi* : Begin traversing the scopes, layer (0).
 *Verdi* : Enable +all dumping.
@@ -30,9 +31,9 @@ FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~TESTCASE:                                                                                                                                                                                                                                                                                                              ~~~~~~~~~~~~~
-~~~~~~~~~~~~~~Total cycle_count value:      25804 ~~~~~~~~~~~~~
-~~~~~~~~~~The valid Instruction Count:      16560 ~~~~~~~~~~~~~
-~~~~~The test ending reached at cycle:      25758 ~~~~~~~~~~~~~
+~~~~~~~~~~~~~~Total cycle_count value:      26398 ~~~~~~~~~~~~~
+~~~~~~~~~~The valid Instruction Count:      16710 ~~~~~~~~~~~~~
+~~~~~The test ending reached at cycle:      26352 ~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~The final x3 Reg value:          1 ~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~ TEST_PASS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -45,9 +46,9 @@ FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
 ~~~~~~~~~ #       #    #   ####    #### ~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 $finish called from file "./tb/tb_top.v", line 222.
-$finish at simulation time            103346000
-Simulation complete, time is 103346000 ps.
+$finish at simulation time              1057220
+Simulation complete, time is 1057220 ps.
            V C S   S i m u l a t i o n   R e p o r t 
-Time: 103346000 ps
-CPU Time:      1.430 seconds;       Data structure size:   2.6Mb
-Tue Dec 24 05:41:05 2024
+Time: 1057220 ps
+CPU Time:      1.750 seconds;       Data structure size:   2.7Mb
+Wed Dec 25 04:42:11 2024
