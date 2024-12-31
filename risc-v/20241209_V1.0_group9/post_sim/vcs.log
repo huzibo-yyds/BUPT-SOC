@@ -1,0 +1,1909 @@
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '5.4.0-150-generic' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP2_Full64 -- Tue Dec 31 00:44:18 2024
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../../lib/SMIC180/MEM_IP_20MHz/RA1SHD8192X32/RA1SHD8192X32.v'
+Parsing design file '../../../lib/SMIC180/MEM_IP_20MHz/RA1SHD8192X64/RA1SHD8192X64.v'
+Parsing design file '../../../lib/SMIC180/SP018_V1.5b/SP018_V1p5b/SP018_V1p5b/verilog/SP018_V1p5a.v'
+Parsing design file '../../../lib/SMIC180/SCC018UG_UHD_RVT_V0p4a/verilog/scc018ug_uhd_rvt.v'
+Parsing design file '../syn/netlist/full_chip_mapped.v'
+Parsing design file './tb/tb_top.v'
+Parsing included file 'e203_defines.v'.
+Parsing included file 'config.v'.
+Back to file 'e203_defines.v'.
+Back to file './tb/tb_top.v'.
+Top Level Modules:
+       PANA1AP
+       PANA1AP1
+       PANA2AP
+       PANA2AP1
+       PANA3AP
+       PANA4AP
+       PB12
+       PB16
+       PB2
+       PB24
+       PB4
+       PBCD12
+       PBCD16
+       PBCD2
+       PBCD24
+       PBCD4
+       PBCD8
+       PBCDL12
+       PBCDL16
+       PBCDL24
+       PBCDL8
+       PBCU12
+       PBCU2
+       PBCU24
+       PBCU4
+       PBCU8
+       PBCUL12
+       PBCUL16
+       PBCUL24
+       PBCUL8
+       PBD12
+       PBD16
+       PBD2
+       PBD24
+       PBD4
+       PBD8
+       PBDL12
+       PBDL16
+       PBDL24
+       PBDL8
+       PBL12
+       PBL16
+       PBL24
+       PBL8
+       PBS12
+       PBS16
+       PBS2
+       PBS24
+       PBS4
+       PBS8
+       PBSD12
+       PBSD16
+       PBSD2
+       PBSD24
+       PBSD4
+       PBSD8
+       PBSDL12
+       PBSDL16
+       PBSDL24
+       PBSDL8
+       PBSL12
+       PBSL16
+       PBSL24
+       PBSL8
+       PBSU12
+       PBSU16
+       PBSU2
+       PBSU24
+       PBSU4
+       PBSU8
+       PBSUL12
+       PBSUL16
+       PBSUL24
+       PBSUL8
+       PBU12
+       PBU16
+       PBU2
+       PBU24
+       PBU4
+       PBU8
+       PBUL12
+       PBUL16
+       PBUL24
+       PBUL8
+       PCI3B
+       PCI3BS
+       PCI6B
+       PCI6BS
+       PDIODE
+       PDIODE8
+       PICD
+       PICU
+       PID
+       PIS
+       PISD
+       PISU
+       PO12
+       PO2
+       PO24
+       PO8
+       POL12
+       POL16
+       POL24
+       POL8
+       POT12
+       POT2
+       POT24
+       POT4
+       POT8
+       POTL12
+       POTL16
+       POTL24
+       POTL8
+       PVDD1
+       PVDD1ANP
+       PVDD1AP
+       PVDD1AP1
+       PVDD1CAP
+       PVDD1CAP1
+       PVDD2
+       PVDD2AP
+       PVDD3AP
+       PVDD3CAP
+       PVDD4AP
+       PVDD5AP
+       PVSS1
+       PVSS1ANP
+       PVSS1AP
+       PVSS1AP1
+       PVSS1CAP
+       PVSS1CAP1
+       PVSS2
+       PVSS2AP
+       PVSS3
+       PVSS3AP
+       PVSS3CAP
+       PVSS4AP
+       PVSS5AP
+       PX1
+       PX2
+       PX3
+       PXWE1
+       PXWE2
+       PXWE3
+       AD1UHDV2
+       ADH1UHDV2
+       ADH1UHDV3
+       AND2UHDV0P7
+       AND2UHDV2
+       AND2UHDV3
+       AND2UHDV4
+       AND2UHDV6
+       AND2UHDV8
+       AND3UHDV1
+       AND3UHDV2
+       AND3UHDV3
+       AND3UHDV4
+       AND4UHDV1
+       AND4UHDV2
+       AND4UHDV3
+       AO112UHDV0P7
+       AO112UHDV1
+       AO112UHDV2
+       AO112UHDV3
+       AO12UHDV1
+       AO12UHDV2
+       AO12UHDV3
+       AO12UHDV4
+       AO21BUHDV0P7
+       AO21BUHDV1
+       AO21BUHDV2
+       AO21BUHDV3
+       AO221UHDV0P7
+       AO221UHDV1
+       AO221UHDV2
+       AO221UHDV3
+       AO222UHDV0P7
+       AO222UHDV1
+       AO222UHDV2
+       AO222UHDV3
+       AO22UHDV1
+       AO22UHDV2
+       AO22UHDV3
+       AO22UHDV4
+       AO22UHDV6
+       AO31UHDV0P7
+       AO31UHDV1
+       AO31UHDV2
+       AO32UHDV2
+       AO32UHDV3
+       AO32UHDV4
+       AO33UHDV1
+       AO33UHDV2
+       AO33UHDV3
+       AO33UHDV4
+       AOI211UHDV0P4
+       AOI211UHDV0P7
+       AOI211UHDV2
+       AOI211UHDV3
+       AOI21BUHDV0P7
+       AOI21BUHDV1
+       AOI21BUHDV2
+       AOI21UHDV0P7
+       AOI21UHDV2
+       AOI21UHDV3
+       AOI21UHDV4
+       AOI21UHDV6
+       AOI221UHDV0P7
+       AOI221UHDV1
+       AOI221UHDV2
+       AOI221UHDV3
+       AOI221UHDV4
+       AOI222UHDV0P7
+       AOI222UHDV1
+       AOI222UHDV2
+       AOI222UHDV3
+       AOI22BBUHDV0P7
+       AOI22BBUHDV1
+       AOI22BBUHDV2
+       AOI22UHDV0P7
+       AOI22UHDV1
+       AOI22UHDV2
+       AOI22UHDV3
+       AOI22UHDV4
+       AOI22UHDV6
+       AOI22XBUHDV0P7
+       AOI22XBUHDV1
+       AOI22XBUHDV2
+       AOI22XBUHDV4
+       AOI2XB11UHDV0P7
+       AOI2XB11UHDV1
+       AOI2XB11UHDV2
+       AOI2XB1UHDV0P7
+       AOI2XB1UHDV1
+       AOI2XB1UHDV2
+       AOI2XB1UHDV4
+       AOI31UHDV0P7
+       AOI31UHDV1
+       AOI31UHDV2
+       AOI31UHDV3
+       AOI32UHDV0P7
+       AOI32UHDV1
+       AOI32UHDV2
+       AOI32UHDV3
+       BUFUHDV16
+       BUFUHDV2
+       BUFUHDV20
+       BUFUHDV24
+       BUFUHDV3
+       BUFUHDV4
+       BUFUHDV6
+       BUFUHDV8
+       BUSHOLDUHD
+       CLKAND2UHDV0P7
+       CLKAND2UHDV1
+       CLKAND2UHDV2
+       CLKAND2UHDV3
+       CLKAND2UHDV4
+       CLKAND2UHDV6
+       CLKAND2UHDV8
+       CLKBUFUHDV16
+       CLKBUFUHDV2
+       CLKBUFUHDV20
+       CLKBUFUHDV24
+       CLKBUFUHDV3
+       CLKBUFUHDV6
+       CLKBUFUHDV8
+       CLKINUHDV2
+       CLKINUHDV20
+       CLKINUHDV24
+       CLKINUHDV6
+       CLKINUHDV8
+       CLKLAHAQUHDV1
+       CLKLAHAQUHDV2
+       CLKLAHAQUHDV3
+       CLKLAHAQUHDV4
+       CLKLAHAQUHDV6
+       CLKLAHAQUHDV8
+       CLKLAHQUHDV2
+       CLKLAHQUHDV3
+       CLKLAHQUHDV4
+       CLKLAHQUHDV6
+       CLKLAHQUHDV8
+       CLKLANAQUHDV1
+       CLKLANAQUHDV2
+       CLKLANAQUHDV3
+       CLKLANAQUHDV4
+       CLKLANAQUHDV6
+       CLKLANAQUHDV8
+       CLKLANQUHDV3
+       CLKLANQUHDV4
+       CLKLANQUHDV6
+       CLKLANQUHDV8
+       CLKMUX2UHDV0P7
+       CLKMUX2UHDV1
+       CLKMUX2UHDV2
+       CLKMUX2UHDV3
+       CLKMUX2UHDV6
+       CLKMUX2UHDV8
+       CLKNAND2UHDV2
+       CLKNAND2UHDV3
+       CLKNAND2UHDV4
+       CLKNAND2UHDV6
+       CLKNAND2UHDV8
+       CLKNOR2UHDV1
+       CLKNOR2UHDV2
+       CLKNOR2UHDV3
+       CLKNOR2UHDV4
+       CLKNOR2UHDV6
+       CLKNOR2UHDV8
+       CLKOR2UHDV0P7
+       CLKOR2UHDV1
+       CLKOR2UHDV2
+       CLKOR2UHDV3
+       CLKOR2UHDV6
+       CLKOR2UHDV8
+       CLKXOR2UHDV0P7
+       CLKXOR2UHDV1
+       CLKXOR2UHDV2
+       CLKXOR2UHDV4
+       DEL1UHDV1
+       DEL1UHDV2
+       DEL2UHDV1
+       DEL2UHDV2
+       DEL4UHDV1
+       DEL4UHDV2
+       DGRNQNUHDV0P7
+       DGRNQNUHDV1
+       DGRNQNUHDV2
+       DGRSNQNUHDV0P7
+       DGRSNQNUHDV1
+       DGRSNQNUHDV2
+       DQNUHDV1
+       DQNUHDV2
+       DQUHDV0P7
+       DQUHDV1
+       DQUHDV2
+       DQUHDV3
+       DRNQUHDV2
+       DRNQUHDV3
+       DRQUHDV2
+       DRQUHDV3
+       DSNQUHDV0P7
+       DSNQUHDV2
+       DSNQUHDV3
+       DSRNQUHDV2
+       F_DIODENUHD2
+       F_DIODEUHD2
+       INUHDV16
+       INUHDV20
+       INUHDV3
+       INUHDV4
+       INUHDV6
+       LAHQUHDV0P7
+       LAHQUHDV1
+       LAHQUHDV2
+       LAHQUHDV3
+       LAHRNQUHDV0P7
+       LAHRNQUHDV1
+       LAHRNQUHDV2
+       LAHRNQUHDV3
+       LAHSQUHDV0P7
+       LAHSQUHDV1
+       LAHSQUHDV2
+       LAHSQUHDV3
+       LALQUHDV0P7
+       LALQUHDV1
+       LALQUHDV2
+       LALQUHDV3
+       LALRNQUHDV0P7
+       LALRNQUHDV1
+       LALRNQUHDV2
+       LALRNQUHDV3
+       LALSQUHDV0P7
+       LALSQUHDV1
+       LALSQUHDV2
+       LALSQUHDV3
+       MAJ23UHDV0P7
+       MAJ23UHDV1
+       MAJ23UHDV2
+       MAJ23UHDV3
+       MAOI222UHDV0P4
+       MAOI222UHDV0P7
+       MAOI222UHDV1
+       MAOI222UHDV2
+       MAOI222UHDV3
+       MOAI222UHDV0P4
+       MOAI222UHDV0P7
+       MOAI222UHDV1
+       MOAI222UHDV2
+       MOAI222UHDV3
+       MUX2NUHDV1
+       MUX2UHDV0P7
+       MUX2UHDV1
+       MUX2UHDV2
+       MUX2UHDV3
+       MUX2UHDV6
+       MUX3UHDV1
+       MUX3UHDV2
+       MUXINOR2UHDV0P7
+       MUXINOR2UHDV1
+       MUXINOR2UHDV2
+       NAND2UHDV1
+       NAND2UHDV2
+       NAND2UHDV3
+       NAND2UHDV4
+       NAND2UHDV6
+       NAND2UHDV8
+       NAND2XBUHDV0P7
+       NAND2XBUHDV1
+       NAND2XBUHDV2
+       NAND2XBUHDV4
+       NAND2XBUHDV6
+       NAND2XBUHDV8
+       NAND3BBUHDV1
+       NAND3BBUHDV2
+       NAND3BUHDV1
+       NAND3BUHDV2
+       NAND3UHDV0P7
+       NAND3UHDV1
+       NAND3UHDV2
+       NAND4BUHDV1
+       NAND4BUHDV2
+       NAND4UHDV1
+       NAND4UHDV2
+       NAND4XXBBUHDV1
+       NAND4XXBBUHDV2
+       NAND4XXBBUHDV3
+       NDQUHDV0P7
+       NDQUHDV1
+       NDQUHDV2
+       NDQUHDV3
+       NDSRNQUHDV2
+       NOR2UHDV1
+       NOR2UHDV2
+       NOR2UHDV3
+       NOR2UHDV4
+       NOR2UHDV6
+       NOR2UHDV8
+       NOR2XBUHDV0P7
+       NOR2XBUHDV1
+       NOR2XBUHDV2
+       NOR2XBUHDV3
+       NOR2XBUHDV4
+       NOR2XBUHDV6
+       NOR2XBUHDV8
+       NOR3BUHDV1
+       NOR3BUHDV2
+       NOR3BUHDV3
+       NOR3BUHDV4
+       NOR3UHDV0P4
+       NOR3UHDV1
+       NOR3UHDV2
+       NOR3UHDV3
+       NOR3UHDV4
+       NOR4UHDV2
+       NOR4UHDV3
+       NOR4XXBBUHDV1
+       NOR4XXBBUHDV2
+       NOR4XXBBUHDV3
+       NOR4XXBBUHDV4
+       OA112UHDV0P7
+       OA112UHDV1
+       OA112UHDV2
+       OA112UHDV3
+       OA12UHDV0P7
+       OA12UHDV1
+       OA12UHDV2
+       OA12UHDV3
+       OA12UHDV4
+       OA21BUHDV0P7
+       OA21BUHDV1
+       OA21BUHDV2
+       OA21BUHDV3
+       OA221UHDV0P7
+       OA221UHDV1
+       OA221UHDV2
+       OA221UHDV3
+       OA222UHDV0P7
+       OA222UHDV1
+       OA222UHDV2
+       OA222UHDV3
+       OA22UHDV0P7
+       OA22UHDV1
+       OA22UHDV2
+       OA22UHDV3
+       OA22UHDV4
+       OA22UHDV6
+       OA31UHDV0P7
+       OA31UHDV1
+       OA31UHDV2
+       OA32UHDV1
+       OA32UHDV2
+       OA32UHDV3
+       OA32UHDV4
+       OA33UHDV1
+       OA33UHDV2
+       OA33UHDV3
+       OA33UHDV4
+       OAI211UHDV0P7
+       OAI211UHDV1
+       OAI211UHDV2
+       OAI211UHDV3
+       OAI21BUHDV0P7
+       OAI21BUHDV1
+       OAI21BUHDV2
+       OAI21UHDV0P7
+       OAI21UHDV1
+       OAI21UHDV2
+       OAI21UHDV3
+       OAI21UHDV4
+       OAI21UHDV6
+       OAI221UHDV0P7
+       OAI221UHDV1
+       OAI221UHDV2
+       OAI221UHDV3
+       OAI221UHDV4
+       OAI222UHDV0P7
+       OAI222UHDV1
+       OAI222UHDV2
+       OAI222UHDV3
+       OAI22BBUHDV1
+       OAI22UHDV0P7
+       OAI22UHDV1
+       OAI22UHDV2
+       OAI22UHDV3
+       OAI22UHDV4
+       OAI22UHDV6
+       OAI22XBUHDV0P7
+       OAI22XBUHDV1
+       OAI22XBUHDV2
+       OAI22XBUHDV4
+       OAI2XB11UHDV0P7
+       OAI2XB11UHDV1
+       OAI2XB11UHDV2
+       OAI2XB1UHDV0P7
+       OAI2XB1UHDV1
+       OAI2XB1UHDV2
+       OAI2XB1UHDV4
+       OAI31UHDV0P7
+       OAI31UHDV1
+       OAI31UHDV2
+       OAI31UHDV3
+       OAI32UHDV0P7
+       OAI32UHDV1
+       OAI32UHDV2
+       OAI32UHDV3
+       OR2UHDV0P4
+       OR2UHDV1
+       OR2UHDV2
+       OR2UHDV3
+       OR2UHDV4
+       OR2UHDV6
+       OR2UHDV8
+       OR3UHDV1
+       OR3UHDV2
+       OR3UHDV3
+       OR3UHDV4
+       OR4UHDV2
+       SDGRNQNUHDV0P7
+       SDGRNQNUHDV1
+       SDGRNQNUHDV2
+       SDGRSNQNUHDV0P7
+       SDGRSNQNUHDV1
+       SDGRSNQNUHDV2
+       SDQNUHDV0P7
+       SDQNUHDV1
+       SDQNUHDV2
+       SDQUHDV0P7
+       SDQUHDV1
+       SDQUHDV2
+       SDQUHDV3
+       SDRNQUHDV0P7
+       SDRNQUHDV1
+       SDRNQUHDV2
+       SDRNQUHDV3
+       SDRQUHDV0P7
+       SDRQUHDV1
+       SDRQUHDV2
+       SDRQUHDV3
+       SDSNQUHDV0P7
+       SDSNQUHDV1
+       SDSNQUHDV2
+       SDSNQUHDV3
+       SDSRNQUHDV1
+       SDSRNQUHDV2
+       SNDQUHDV0P7
+       SNDQUHDV1
+       SNDQUHDV2
+       SNDQUHDV3
+       SNDSRNQUHDV1
+       SNDSRNQUHDV2
+       TBUFUHDV0P7
+       TBUFUHDV1
+       TBUFUHDV12
+       TBUFUHDV16
+       TBUFUHDV2
+       TBUFUHDV24
+       TBUFUHDV3
+       TBUFUHDV4
+       TBUFUHDV6
+       TBUFUHDV8
+       XNOR2UHDV0P7
+       XNOR2UHDV1
+       XNOR2UHDV2
+       XNOR2UHDV4
+       XNOR3UHDV0P7
+       XNOR3UHDV1
+       XNOR3UHDV2
+       XOR2UHDV0P7
+       XOR2UHDV1
+       XOR2UHDV2
+       XOR2UHDV4
+       XOR3UHDV0P7T
+       XOR3UHDV1T
+       XOR3UHDV2T
+       tb_top
+TimeScale is 10 ps / 1 ps
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32244
+sirv_clint, "CLKINUHDV3 U5( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32245
+sirv_clint, "CLKINUHDV3 U8( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32246
+sirv_clint, "CLKINUHDV3 U9( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32247
+sirv_clint, "CLKINUHDV3 U10( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32248
+sirv_clint, "CLKINUHDV3 U11( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32249
+sirv_clint, "CLKINUHDV3 U12( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32250
+sirv_clint, "CLKINUHDV3 U13( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32251
+sirv_clint, "CLKINUHDV3 U14( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32252
+sirv_clint, "CLKINUHDV3 U15( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32253
+sirv_clint, "CLKINUHDV3 U16( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32254
+sirv_clint, "CLKINUHDV3 U17( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32255
+sirv_clint, "CLKINUHDV3 U18( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32256
+sirv_clint, "CLKINUHDV3 U19( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32257
+sirv_clint, "CLKINUHDV3 U20( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32258
+sirv_clint, "CLKINUHDV3 U21( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32259
+sirv_clint, "CLKINUHDV3 U22( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32260
+sirv_clint, "CLKINUHDV3 U23( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32261
+sirv_clint, "CLKINUHDV3 U24( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32262
+sirv_clint, "CLKINUHDV3 U25( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32263
+sirv_clint, "CLKINUHDV3 U26( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32264
+sirv_clint, "CLKINUHDV3 U27( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32265
+sirv_clint, "CLKINUHDV3 U28( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32266
+sirv_clint, "CLKINUHDV3 U29( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32267
+sirv_clint, "CLKINUHDV3 U30( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32268
+sirv_clint, "CLKINUHDV3 U31( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32269
+sirv_clint, "CLKINUHDV3 U32( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32270
+sirv_clint, "CLKINUHDV3 U33( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32271
+sirv_clint, "CLKINUHDV3 U34( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32272
+sirv_clint, "CLKINUHDV3 U35( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../syn/netlist/full_chip_mapped.v, 32273
+sirv_clint, "CLKINUHDV3 U36( .I (reset));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+Notice: Ports coerced to inout, use -notice for details
+Starting vcs inline pass...
+999 modules and 9 UDPs read.
+recompiling module PANA1AP
+recompiling module PANA1AP1
+recompiling module PANA2AP
+recompiling module PANA2AP1
+recompiling module PANA3AP
+recompiling module PANA4AP
+recompiling module PB12
+recompiling module PB16
+recompiling module PB2
+recompiling module PB24
+recompiling module PB4
+recompiling module PB8
+recompiling module PBCD12
+recompiling module PBCD16
+recompiling module PBCD2
+recompiling module PBCD24
+recompiling module PBCD4
+recompiling module PBCD8
+recompiling module PBCDL12
+recompiling module PBCDL16
+recompiling module PBCDL24
+recompiling module PBCDL8
+recompiling module PBCU12
+recompiling module PBCU16
+recompiling module PBCU2
+recompiling module PBCU24
+recompiling module PBCU4
+recompiling module PBCU8
+recompiling module PBCUL12
+recompiling module PBCUL16
+recompiling module PBCUL24
+recompiling module PBCUL8
+recompiling module PBD12
+recompiling module PBD16
+recompiling module PBD2
+recompiling module PBD24
+recompiling module PBD4
+recompiling module PBD8
+recompiling module PBDL12
+recompiling module PBDL16
+recompiling module PBDL24
+recompiling module PBDL8
+recompiling module PBL12
+recompiling module PBL16
+recompiling module PBL24
+recompiling module PBL8
+recompiling module PBS12
+recompiling module PBS16
+recompiling module PBS2
+recompiling module PBS24
+50 of 999 modules done
+recompiling module PBS4
+recompiling module PBS8
+recompiling module PBSD12
+recompiling module PBSD16
+recompiling module PBSD2
+recompiling module PBSD24
+recompiling module PBSD4
+recompiling module PBSD8
+recompiling module PBSDL12
+recompiling module PBSDL16
+recompiling module PBSDL24
+recompiling module PBSDL8
+recompiling module PBSL12
+recompiling module PBSL16
+recompiling module PBSL24
+recompiling module PBSL8
+recompiling module PBSU12
+recompiling module PBSU16
+recompiling module PBSU2
+recompiling module PBSU24
+recompiling module PBSU4
+recompiling module PBSU8
+recompiling module PBSUL12
+recompiling module PBSUL16
+recompiling module PBSUL24
+recompiling module PBSUL8
+recompiling module PBU12
+recompiling module PBU16
+recompiling module PBU2
+recompiling module PBU24
+recompiling module PBU4
+recompiling module PBU8
+recompiling module PBUL12
+recompiling module PBUL16
+recompiling module PBUL24
+recompiling module PBUL8
+recompiling module PCI3B
+recompiling module PCI3BS
+recompiling module PCI6B
+recompiling module PCI6BS
+recompiling module PDIODE
+recompiling module PDIODE8
+recompiling module PI
+recompiling module PICD
+recompiling module PICU
+recompiling module PID
+recompiling module PIS
+recompiling module PISD
+recompiling module PISU
+recompiling module PIU
+100 of 999 modules done
+recompiling module PO12
+recompiling module PO16
+recompiling module PO2
+recompiling module PO24
+recompiling module PO4
+recompiling module PO8
+recompiling module POL12
+recompiling module POL16
+recompiling module POL24
+recompiling module POL8
+recompiling module POT12
+recompiling module POT16
+recompiling module POT2
+recompiling module POT24
+recompiling module POT4
+recompiling module POT8
+recompiling module POTL12
+recompiling module POTL16
+recompiling module POTL24
+recompiling module POTL8
+recompiling module PVDD1
+recompiling module PVDD1ANP
+recompiling module PVDD1AP
+recompiling module PVDD1AP1
+recompiling module PVDD1CAP
+recompiling module PVDD1CAP1
+recompiling module PVDD2
+recompiling module PVDD2AP
+recompiling module PVDD3AP
+recompiling module PVDD3CAP
+recompiling module PVDD4AP
+recompiling module PVDD5AP
+recompiling module PVSS1
+recompiling module PVSS1ANP
+recompiling module PVSS1AP
+recompiling module PVSS1AP1
+recompiling module PVSS1CAP
+recompiling module PVSS1CAP1
+recompiling module PVSS2
+recompiling module PVSS2AP
+recompiling module PVSS3
+recompiling module PVSS3AP
+recompiling module PVSS3CAP
+recompiling module PVSS4AP
+recompiling module PVSS5AP
+recompiling module PX1
+recompiling module PX2
+recompiling module PX3
+recompiling module PXWE1
+recompiling module PXWE2
+150 of 999 modules done
+recompiling module PXWE3
+recompiling module AD1UHDV1
+recompiling module AD1UHDV2
+recompiling module ADH1UHDV1
+recompiling module ADH1UHDV2
+recompiling module ADH1UHDV3
+recompiling module AND2UHDV0P4
+recompiling module AND2UHDV0P7
+recompiling module AND2UHDV2
+recompiling module AND2UHDV3
+recompiling module AND2UHDV4
+recompiling module AND2UHDV6
+recompiling module AND2UHDV8
+recompiling module AND3UHDV0P7
+recompiling module AND3UHDV1
+recompiling module AND3UHDV2
+recompiling module AND3UHDV3
+recompiling module AND3UHDV4
+recompiling module AND4UHDV0P7
+recompiling module AND4UHDV1
+recompiling module AND4UHDV2
+recompiling module AND4UHDV3
+recompiling module AO112UHDV0P4
+recompiling module AO112UHDV0P7
+recompiling module AO112UHDV1
+recompiling module AO112UHDV2
+recompiling module AO112UHDV3
+recompiling module AO12UHDV0P4
+recompiling module AO12UHDV1
+recompiling module AO12UHDV2
+recompiling module AO12UHDV3
+recompiling module AO12UHDV4
+recompiling module AO21BUHDV0P4
+recompiling module AO21BUHDV0P7
+recompiling module AO21BUHDV1
+recompiling module AO21BUHDV2
+recompiling module AO21BUHDV3
+recompiling module AO221UHDV0P4
+recompiling module AO221UHDV0P7
+recompiling module AO221UHDV1
+recompiling module AO221UHDV2
+recompiling module AO221UHDV3
+recompiling module AO222UHDV0P4
+recompiling module AO222UHDV0P7
+recompiling module AO222UHDV1
+recompiling module AO222UHDV2
+recompiling module AO222UHDV3
+recompiling module AO22UHDV0P4
+recompiling module AO22UHDV0P7
+recompiling module AO22UHDV1
+200 of 999 modules done
+recompiling module AO22UHDV2
+recompiling module AO22UHDV3
+recompiling module AO22UHDV4
+recompiling module AO22UHDV6
+recompiling module AO31UHDV0P4
+recompiling module AO31UHDV0P7
+recompiling module AO31UHDV1
+recompiling module AO31UHDV2
+recompiling module AO32UHDV0P7
+recompiling module AO32UHDV2
+recompiling module AO32UHDV3
+recompiling module AO32UHDV4
+recompiling module AO33UHDV0P7
+recompiling module AO33UHDV1
+recompiling module AO33UHDV2
+recompiling module AO33UHDV3
+recompiling module AO33UHDV4
+recompiling module AOI211UHDV0P4
+recompiling module AOI211UHDV0P7
+recompiling module AOI211UHDV1
+recompiling module AOI211UHDV2
+recompiling module AOI211UHDV3
+recompiling module AOI21BUHDV0P4
+recompiling module AOI21BUHDV0P7
+recompiling module AOI21BUHDV1
+recompiling module AOI21BUHDV2
+recompiling module AOI21UHDV0P4
+recompiling module AOI21UHDV0P7
+recompiling module AOI21UHDV2
+recompiling module AOI21UHDV3
+recompiling module AOI21UHDV4
+recompiling module AOI21UHDV6
+recompiling module AOI221UHDV0P4
+recompiling module AOI221UHDV0P7
+recompiling module AOI221UHDV1
+recompiling module AOI221UHDV2
+recompiling module AOI221UHDV3
+recompiling module AOI221UHDV4
+recompiling module AOI222UHDV0P4
+recompiling module AOI222UHDV0P7
+recompiling module AOI222UHDV1
+recompiling module AOI222UHDV2
+recompiling module AOI222UHDV3
+recompiling module AOI22BBUHDV0P4
+recompiling module AOI22BBUHDV0P7
+recompiling module AOI22BBUHDV1
+recompiling module AOI22BBUHDV2
+recompiling module AOI22UHDV0P4
+recompiling module AOI22UHDV0P7
+recompiling module AOI22UHDV1
+250 of 999 modules done
+recompiling module AOI22UHDV2
+recompiling module AOI22UHDV3
+recompiling module AOI22UHDV4
+recompiling module AOI22UHDV6
+recompiling module AOI22XBUHDV0P4
+recompiling module AOI22XBUHDV0P7
+recompiling module AOI22XBUHDV1
+recompiling module AOI22XBUHDV2
+recompiling module AOI22XBUHDV4
+recompiling module AOI2XB11UHDV0P4
+recompiling module AOI2XB11UHDV0P7
+recompiling module AOI2XB11UHDV1
+recompiling module AOI2XB11UHDV2
+recompiling module AOI2XB1UHDV0P4
+recompiling module AOI2XB1UHDV0P7
+recompiling module AOI2XB1UHDV1
+recompiling module AOI2XB1UHDV2
+recompiling module AOI2XB1UHDV4
+recompiling module AOI31UHDV0P4
+recompiling module AOI31UHDV0P7
+recompiling module AOI31UHDV1
+recompiling module AOI31UHDV2
+recompiling module AOI31UHDV3
+recompiling module AOI32UHDV0P4
+recompiling module AOI32UHDV0P7
+recompiling module AOI32UHDV1
+recompiling module AOI32UHDV2
+recompiling module AOI32UHDV3
+recompiling module BUFUHDV0P4
+recompiling module BUFUHDV0P7
+recompiling module BUFUHDV1
+recompiling module BUFUHDV16
+recompiling module BUFUHDV2
+recompiling module BUFUHDV20
+recompiling module BUFUHDV24
+recompiling module BUFUHDV3
+recompiling module BUFUHDV4
+recompiling module BUFUHDV6
+recompiling module BUFUHDV8
+recompiling module BUSHOLDUHD
+recompiling module CLKAND2UHDV0P7
+recompiling module CLKAND2UHDV1
+recompiling module CLKAND2UHDV2
+recompiling module CLKAND2UHDV3
+recompiling module CLKAND2UHDV4
+recompiling module CLKAND2UHDV6
+recompiling module CLKAND2UHDV8
+recompiling module CLKBUFUHDV1
+recompiling module CLKBUFUHDV16
+recompiling module CLKBUFUHDV2
+300 of 999 modules done
+recompiling module CLKBUFUHDV20
+recompiling module CLKBUFUHDV24
+recompiling module CLKBUFUHDV3
+recompiling module CLKBUFUHDV4
+recompiling module CLKBUFUHDV6
+recompiling module CLKBUFUHDV8
+recompiling module CLKINUHDV1
+recompiling module CLKINUHDV2
+recompiling module CLKINUHDV20
+recompiling module CLKINUHDV24
+recompiling module CLKINUHDV3
+recompiling module CLKINUHDV6
+recompiling module CLKINUHDV8
+recompiling module CLKLAHAQUHDV1
+recompiling module CLKLAHAQUHDV2
+recompiling module CLKLAHAQUHDV3
+recompiling module CLKLAHAQUHDV4
+recompiling module CLKLAHAQUHDV6
+recompiling module CLKLAHAQUHDV8
+recompiling module CLKLAHQUHDV2
+recompiling module CLKLAHQUHDV3
+recompiling module CLKLAHQUHDV4
+recompiling module CLKLAHQUHDV6
+recompiling module CLKLAHQUHDV8
+recompiling module CLKLANAQUHDV1
+recompiling module CLKLANAQUHDV2
+recompiling module CLKLANAQUHDV3
+recompiling module CLKLANAQUHDV4
+recompiling module CLKLANAQUHDV6
+recompiling module CLKLANAQUHDV8
+recompiling module CLKLANQUHDV1
+recompiling module CLKLANQUHDV3
+recompiling module CLKLANQUHDV4
+recompiling module CLKLANQUHDV6
+recompiling module CLKLANQUHDV8
+recompiling module CLKMUX2UHDV0P7
+recompiling module CLKMUX2UHDV1
+recompiling module CLKMUX2UHDV2
+recompiling module CLKMUX2UHDV3
+recompiling module CLKMUX2UHDV6
+recompiling module CLKMUX2UHDV8
+recompiling module CLKNAND2UHDV0P7
+recompiling module CLKNAND2UHDV2
+recompiling module CLKNAND2UHDV3
+recompiling module CLKNAND2UHDV4
+recompiling module CLKNAND2UHDV6
+recompiling module CLKNAND2UHDV8
+recompiling module CLKNOR2UHDV0P7
+recompiling module CLKNOR2UHDV1
+recompiling module CLKNOR2UHDV2
+350 of 999 modules done
+recompiling module CLKNOR2UHDV3
+recompiling module CLKNOR2UHDV4
+recompiling module CLKNOR2UHDV6
+recompiling module CLKNOR2UHDV8
+recompiling module CLKOR2UHDV0P7
+recompiling module CLKOR2UHDV1
+recompiling module CLKOR2UHDV2
+recompiling module CLKOR2UHDV3
+recompiling module CLKOR2UHDV6
+recompiling module CLKOR2UHDV8
+recompiling module CLKXOR2UHDV0P7
+recompiling module CLKXOR2UHDV1
+recompiling module CLKXOR2UHDV2
+recompiling module CLKXOR2UHDV4
+recompiling module DEL1UHDV1
+recompiling module DEL1UHDV2
+recompiling module DEL2UHDV1
+recompiling module DEL2UHDV2
+recompiling module DEL4UHDV1
+recompiling module DEL4UHDV2
+recompiling module DGRNQNUHDV0P7
+recompiling module DGRNQNUHDV1
+recompiling module DGRNQNUHDV2
+recompiling module DGRSNQNUHDV0P7
+recompiling module DGRSNQNUHDV1
+recompiling module DGRSNQNUHDV2
+recompiling module DQNUHDV0P7
+recompiling module DQNUHDV1
+recompiling module DQNUHDV2
+recompiling module DQUHDV0P7
+recompiling module DQUHDV1
+recompiling module DQUHDV2
+recompiling module DQUHDV3
+recompiling module DRNQUHDV0P7
+recompiling module DRNQUHDV1
+recompiling module DRNQUHDV2
+recompiling module DRNQUHDV3
+recompiling module DRQUHDV0P7
+recompiling module DRQUHDV1
+recompiling module DRQUHDV2
+recompiling module DRQUHDV3
+recompiling module DSNQUHDV0P7
+recompiling module DSNQUHDV2
+recompiling module DSNQUHDV3
+recompiling module DSRNQUHDV1
+recompiling module DSRNQUHDV2
+recompiling module F_DIODENUHD2
+recompiling module F_DIODEUHD2
+recompiling module INUHDV0P4
+recompiling module INUHDV0P7
+400 of 999 modules done
+recompiling module INUHDV1
+recompiling module INUHDV16
+recompiling module INUHDV20
+recompiling module INUHDV24
+recompiling module INUHDV3
+recompiling module INUHDV4
+recompiling module INUHDV6
+recompiling module INUHDV8
+recompiling module LAHQUHDV0P7
+recompiling module LAHQUHDV1
+recompiling module LAHQUHDV2
+recompiling module LAHQUHDV3
+recompiling module LAHRNQUHDV0P7
+recompiling module LAHRNQUHDV1
+recompiling module LAHRNQUHDV2
+recompiling module LAHRNQUHDV3
+recompiling module LAHSQUHDV0P7
+recompiling module LAHSQUHDV1
+recompiling module LAHSQUHDV2
+recompiling module LAHSQUHDV3
+recompiling module LALQUHDV0P7
+recompiling module LALQUHDV1
+recompiling module LALQUHDV2
+recompiling module LALQUHDV3
+recompiling module LALRNQUHDV0P7
+recompiling module LALRNQUHDV1
+recompiling module LALRNQUHDV2
+recompiling module LALRNQUHDV3
+recompiling module LALSQUHDV0P7
+recompiling module LALSQUHDV1
+recompiling module LALSQUHDV2
+recompiling module LALSQUHDV3
+recompiling module MAJ23UHDV0P4
+recompiling module MAJ23UHDV0P7
+recompiling module MAJ23UHDV1
+recompiling module MAJ23UHDV2
+recompiling module MAJ23UHDV3
+recompiling module MAOI222UHDV0P4
+recompiling module MAOI222UHDV0P7
+recompiling module MAOI222UHDV1
+recompiling module MAOI222UHDV2
+recompiling module MAOI222UHDV3
+recompiling module MOAI222UHDV0P4
+recompiling module MOAI222UHDV0P7
+recompiling module MOAI222UHDV1
+recompiling module MOAI222UHDV2
+recompiling module MOAI222UHDV3
+recompiling module MUX2NUHDV0P4
+recompiling module MUX2NUHDV1
+recompiling module MUX2UHDV0P4
+450 of 999 modules done
+recompiling module MUX2UHDV0P7
+recompiling module MUX2UHDV1
+recompiling module MUX2UHDV2
+recompiling module MUX2UHDV3
+recompiling module MUX2UHDV6
+recompiling module MUX3UHDV0P7
+recompiling module MUX3UHDV1
+recompiling module MUX3UHDV2
+recompiling module MUXINOR2UHDV0P7
+recompiling module MUXINOR2UHDV1
+recompiling module MUXINOR2UHDV2
+recompiling module NAND2UHDV0P4
+recompiling module NAND2UHDV0P7
+recompiling module NAND2UHDV1
+recompiling module NAND2UHDV2
+recompiling module NAND2UHDV3
+recompiling module NAND2UHDV4
+recompiling module NAND2UHDV6
+recompiling module NAND2UHDV8
+recompiling module NAND2XBUHDV0P4
+recompiling module NAND2XBUHDV0P7
+recompiling module NAND2XBUHDV1
+recompiling module NAND2XBUHDV2
+recompiling module NAND2XBUHDV4
+recompiling module NAND2XBUHDV6
+recompiling module NAND2XBUHDV8
+recompiling module NAND3BBUHDV0P7
+recompiling module NAND3BBUHDV1
+recompiling module NAND3BBUHDV2
+recompiling module NAND3BUHDV0P7
+recompiling module NAND3BUHDV1
+recompiling module NAND3BUHDV2
+recompiling module NAND3UHDV0P4
+recompiling module NAND3UHDV0P7
+recompiling module NAND3UHDV1
+recompiling module NAND3UHDV2
+recompiling module NAND4BUHDV0P7
+recompiling module NAND4BUHDV1
+recompiling module NAND4BUHDV2
+recompiling module NAND4UHDV0P7
+recompiling module NAND4UHDV1
+recompiling module NAND4UHDV2
+recompiling module NAND4XXBBUHDV0P7
+recompiling module NAND4XXBBUHDV1
+recompiling module NAND4XXBBUHDV2
+recompiling module NAND4XXBBUHDV3
+recompiling module NDQUHDV0P7
+recompiling module NDQUHDV1
+recompiling module NDQUHDV2
+recompiling module NDQUHDV3
+500 of 999 modules done
+recompiling module NDSRNQUHDV1
+recompiling module NDSRNQUHDV2
+recompiling module NOR2UHDV0P4
+recompiling module NOR2UHDV0P7
+recompiling module NOR2UHDV1
+recompiling module NOR2UHDV2
+recompiling module NOR2UHDV3
+recompiling module NOR2UHDV4
+recompiling module NOR2UHDV6
+recompiling module NOR2UHDV8
+recompiling module NOR2XBUHDV0P4
+recompiling module NOR2XBUHDV0P7
+recompiling module NOR2XBUHDV1
+recompiling module NOR2XBUHDV2
+recompiling module NOR2XBUHDV3
+recompiling module NOR2XBUHDV4
+recompiling module NOR2XBUHDV6
+recompiling module NOR2XBUHDV8
+recompiling module NOR3BUHDV0P7
+recompiling module NOR3BUHDV1
+recompiling module NOR3BUHDV2
+recompiling module NOR3BUHDV3
+recompiling module NOR3BUHDV4
+recompiling module NOR3UHDV0P4
+recompiling module NOR3UHDV0P7
+recompiling module NOR3UHDV1
+recompiling module NOR3UHDV2
+recompiling module NOR3UHDV3
+recompiling module NOR3UHDV4
+recompiling module NOR4UHDV0P7
+recompiling module NOR4UHDV2
+recompiling module NOR4UHDV3
+recompiling module NOR4XXBBUHDV0P7
+recompiling module NOR4XXBBUHDV1
+recompiling module NOR4XXBBUHDV2
+recompiling module NOR4XXBBUHDV3
+recompiling module NOR4XXBBUHDV4
+recompiling module OA112UHDV0P4
+recompiling module OA112UHDV0P7
+recompiling module OA112UHDV1
+recompiling module OA112UHDV2
+recompiling module OA112UHDV3
+recompiling module OA12UHDV0P4
+recompiling module OA12UHDV0P7
+recompiling module OA12UHDV1
+recompiling module OA12UHDV2
+recompiling module OA12UHDV3
+recompiling module OA12UHDV4
+recompiling module OA21BUHDV0P4
+recompiling module OA21BUHDV0P7
+550 of 999 modules done
+recompiling module OA21BUHDV1
+recompiling module OA21BUHDV2
+recompiling module OA21BUHDV3
+recompiling module OA221UHDV0P4
+recompiling module OA221UHDV0P7
+recompiling module OA221UHDV1
+recompiling module OA221UHDV2
+recompiling module OA221UHDV3
+recompiling module OA222UHDV0P7
+recompiling module OA222UHDV1
+recompiling module OA222UHDV2
+recompiling module OA222UHDV3
+recompiling module OA22UHDV0P4
+recompiling module OA22UHDV0P7
+recompiling module OA22UHDV1
+recompiling module OA22UHDV2
+recompiling module OA22UHDV3
+recompiling module OA22UHDV4
+recompiling module OA22UHDV6
+recompiling module OA31UHDV0P4
+recompiling module OA31UHDV0P7
+recompiling module OA31UHDV1
+recompiling module OA31UHDV2
+recompiling module OA32UHDV0P7
+recompiling module OA32UHDV1
+recompiling module OA32UHDV2
+recompiling module OA32UHDV3
+recompiling module OA32UHDV4
+recompiling module OA33UHDV0P7
+recompiling module OA33UHDV1
+recompiling module OA33UHDV2
+recompiling module OA33UHDV3
+recompiling module OA33UHDV4
+recompiling module OAI211UHDV0P4
+recompiling module OAI211UHDV0P7
+recompiling module OAI211UHDV1
+recompiling module OAI211UHDV2
+recompiling module OAI211UHDV3
+recompiling module OAI21BUHDV0P4
+recompiling module OAI21BUHDV0P7
+recompiling module OAI21BUHDV1
+recompiling module OAI21BUHDV2
+recompiling module OAI21UHDV0P4
+recompiling module OAI21UHDV0P7
+recompiling module OAI21UHDV1
+recompiling module OAI21UHDV2
+recompiling module OAI21UHDV3
+recompiling module OAI21UHDV4
+recompiling module OAI21UHDV6
+recompiling module OAI221UHDV0P4
+600 of 999 modules done
+recompiling module OAI221UHDV0P7
+recompiling module OAI221UHDV1
+recompiling module OAI221UHDV2
+recompiling module OAI221UHDV3
+recompiling module OAI221UHDV4
+recompiling module OAI222UHDV0P4
+recompiling module OAI222UHDV0P7
+recompiling module OAI222UHDV1
+recompiling module OAI222UHDV2
+recompiling module OAI222UHDV3
+recompiling module OAI22BBUHDV0P4
+recompiling module OAI22BBUHDV0P7
+recompiling module OAI22BBUHDV1
+recompiling module OAI22BBUHDV2
+recompiling module OAI22UHDV0P4
+recompiling module OAI22UHDV0P7
+recompiling module OAI22UHDV1
+recompiling module OAI22UHDV2
+recompiling module OAI22UHDV3
+recompiling module OAI22UHDV4
+recompiling module OAI22UHDV6
+recompiling module OAI22XBUHDV0P4
+recompiling module OAI22XBUHDV0P7
+recompiling module OAI22XBUHDV1
+recompiling module OAI22XBUHDV2
+recompiling module OAI22XBUHDV4
+recompiling module OAI2XB11UHDV0P4
+recompiling module OAI2XB11UHDV0P7
+recompiling module OAI2XB11UHDV1
+recompiling module OAI2XB11UHDV2
+recompiling module OAI2XB1UHDV0P4
+recompiling module OAI2XB1UHDV0P7
+recompiling module OAI2XB1UHDV1
+recompiling module OAI2XB1UHDV2
+recompiling module OAI2XB1UHDV4
+recompiling module OAI31UHDV0P4
+recompiling module OAI31UHDV0P7
+recompiling module OAI31UHDV1
+recompiling module OAI31UHDV2
+recompiling module OAI31UHDV3
+recompiling module OAI32UHDV0P4
+recompiling module OAI32UHDV0P7
+recompiling module OAI32UHDV1
+recompiling module OAI32UHDV2
+recompiling module OAI32UHDV3
+recompiling module OR2UHDV0P4
+recompiling module OR2UHDV0P7
+recompiling module OR2UHDV1
+recompiling module OR2UHDV2
+recompiling module OR2UHDV3
+650 of 999 modules done
+recompiling module OR2UHDV4
+recompiling module OR2UHDV6
+recompiling module OR2UHDV8
+recompiling module OR3UHDV0P7
+recompiling module OR3UHDV1
+recompiling module OR3UHDV2
+recompiling module OR3UHDV3
+recompiling module OR3UHDV4
+recompiling module OR4UHDV0P7
+recompiling module OR4UHDV2
+recompiling module PULLUHD0
+recompiling module PULLUHD1
+recompiling module SDGRNQNUHDV0P7
+recompiling module SDGRNQNUHDV1
+recompiling module SDGRNQNUHDV2
+recompiling module SDGRSNQNUHDV0P7
+recompiling module SDGRSNQNUHDV1
+recompiling module SDGRSNQNUHDV2
+recompiling module SDQNUHDV0P7
+recompiling module SDQNUHDV1
+recompiling module SDQNUHDV2
+recompiling module SDQUHDV0P7
+recompiling module SDQUHDV1
+recompiling module SDQUHDV2
+recompiling module SDQUHDV3
+recompiling module SDRNQUHDV0P7
+recompiling module SDRNQUHDV1
+recompiling module SDRNQUHDV2
+recompiling module SDRNQUHDV3
+recompiling module SDRQUHDV0P7
+recompiling module SDRQUHDV1
+recompiling module SDRQUHDV2
+recompiling module SDRQUHDV3
+recompiling module SDSNQUHDV0P7
+recompiling module SDSNQUHDV1
+recompiling module SDSNQUHDV2
+recompiling module SDSNQUHDV3
+recompiling module SDSRNQUHDV1
+recompiling module SDSRNQUHDV2
+recompiling module SNDQUHDV0P7
+recompiling module SNDQUHDV1
+recompiling module SNDQUHDV2
+recompiling module SNDQUHDV3
+recompiling module SNDSRNQUHDV1
+recompiling module SNDSRNQUHDV2
+recompiling module TBUFUHDV0P7
+recompiling module TBUFUHDV1
+recompiling module TBUFUHDV12
+recompiling module TBUFUHDV16
+recompiling module TBUFUHDV2
+700 of 999 modules done
+recompiling module TBUFUHDV24
+recompiling module TBUFUHDV3
+recompiling module TBUFUHDV4
+recompiling module TBUFUHDV6
+recompiling module TBUFUHDV8
+recompiling module XNOR2UHDV0P4
+recompiling module XNOR2UHDV0P7
+recompiling module XNOR2UHDV1
+recompiling module XNOR2UHDV2
+recompiling module XNOR2UHDV4
+recompiling module XNOR3UHDV0P7
+recompiling module XNOR3UHDV1
+recompiling module XNOR3UHDV2
+recompiling module XOR2UHDV0P4
+recompiling module XOR2UHDV0P7
+recompiling module XOR2UHDV1
+recompiling module XOR2UHDV2
+recompiling module XOR2UHDV4
+recompiling module XOR3UHDV0P7T
+recompiling module XOR3UHDV1T
+recompiling module XOR3UHDV2T
+recompiling module sirv_ResetCatchAndSync_2_1
+recompiling module e203_subsys_hclkgen
+recompiling module e203_reset_ctrl_MASTER1
+recompiling module e203_clk_ctrl
+recompiling module e203_irq_sync_MASTER1
+recompiling module sirv_gnrl_dfflr_DW2_20
+recompiling module sirv_gnrl_dfflr_DW2_19
+recompiling module sirv_gnrl_dfflr_DW2_18
+recompiling module sirv_gnrl_dfflr_DW2_17
+recompiling module sirv_gnrl_dfflr_DW2_16
+recompiling module sirv_gnrl_dfflr_DW32_24
+recompiling module sirv_gnrl_dfflr_DW2_15
+recompiling module sirv_gnrl_dfflr_DW32_23
+recompiling module sirv_gnrl_dfflr_DW32_22
+recompiling module sirv_gnrl_dfflr_DW32_21
+recompiling module sirv_gnrl_dfflr_DW32_20
+recompiling module sirv_gnrl_dfflr_DW32_19
+recompiling module sirv_gnrl_dfflr_DW32_18
+recompiling module e203_subsys_nice_core_DW01_add_7
+recompiling module e203_subsys_nice_core_DW01_add_9
+recompiling module e203_subsys_nice_core_DW01_add_11
+recompiling module e203_subsys_nice_core
+recompiling module e203_ifu_minidec
+recompiling module sirv_gnrl_dfflr_DW32_15
+recompiling module sirv_gnrl_dfflr_DW1_42
+recompiling module sirv_gnrl_dfflr_DW1_41
+recompiling module e203_ifu_ifetch_DW01_add_3
+recompiling module sirv_gnrl_dfflr_DW1_34
+recompiling module e203_ifu_ift2icb_DW01_add_3
+750 of 999 modules done
+recompiling module e203_ifu_ift2icb
+recompiling module sirv_gnrl_dffl_DW32_32
+recompiling module sirv_gnrl_dffl_DW32_31
+recompiling module sirv_gnrl_dffl_DW32_30
+recompiling module sirv_gnrl_dffl_DW32_29
+recompiling module sirv_gnrl_dffl_DW32_28
+recompiling module sirv_gnrl_dffl_DW32_27
+recompiling module sirv_gnrl_dffl_DW32_26
+recompiling module sirv_gnrl_dffl_DW32_25
+recompiling module sirv_gnrl_dffl_DW32_24
+recompiling module sirv_gnrl_dffl_DW32_23
+recompiling module sirv_gnrl_dffl_DW32_22
+recompiling module sirv_gnrl_dffl_DW32_21
+recompiling module sirv_gnrl_dffl_DW32_20
+recompiling module sirv_gnrl_dffl_DW32_19
+recompiling module sirv_gnrl_dffl_DW32_18
+recompiling module sirv_gnrl_dffl_DW32_17
+recompiling module sirv_gnrl_dffl_DW32_16
+recompiling module sirv_gnrl_dffl_DW32_15
+recompiling module sirv_gnrl_dffl_DW32_14
+recompiling module sirv_gnrl_dffl_DW32_13
+recompiling module sirv_gnrl_dffl_DW32_12
+recompiling module sirv_gnrl_dffl_DW32_11
+recompiling module sirv_gnrl_dffl_DW32_10
+recompiling module sirv_gnrl_dffl_DW32_9
+recompiling module sirv_gnrl_dffl_DW32_8
+recompiling module sirv_gnrl_dffl_DW32_7
+recompiling module sirv_gnrl_dffl_DW32_6
+recompiling module sirv_gnrl_dffl_DW32_5
+recompiling module sirv_gnrl_dffl_DW32_4
+recompiling module sirv_gnrl_dffl_DW32_3
+recompiling module sirv_gnrl_dffl_DW32_2
+recompiling module e203_exu_regfile
+recompiling module e203_exu_decode_1
+recompiling module e203_exu_disp
+recompiling module e203_exu_nice
+recompiling module e203_exu_alu_csrctrl
+recompiling module e203_exu_alu_bjp
+recompiling module e203_exu_alu_lsuagu
+recompiling module e203_exu_alu_rglr
+recompiling module sirv_gnrl_dfflr_DW1_16
+recompiling module sirv_gnrl_dfflr_DW3_2
+recompiling module sirv_gnrl_dfflr_DW6_0
+recompiling module sirv_gnrl_dfflr_DW1_15
+recompiling module sirv_gnrl_dfflr_DW1_14
+recompiling module e203_exu_alu_muldiv
+recompiling module sirv_gnrl_dffl_DW33_2
+recompiling module sirv_gnrl_dffl_DW33_1
+recompiling module e203_exu_alu_dpath_DW01_add_3
+recompiling module e203_exu_alu_dpath
+800 of 999 modules done
+recompiling module e203_exu_alu
+recompiling module e203_exu_longpwbck
+recompiling module e203_exu_wbck
+recompiling module sirv_gnrl_dfflr_DW1_27
+recompiling module sirv_gnrl_dfflr_DW1_26
+recompiling module sirv_gnrl_dfflr_DW32_14
+recompiling module sirv_gnrl_dfflr_DW32_13
+recompiling module sirv_gnrl_dfflr_DW32_12
+recompiling module sirv_gnrl_dfflr_DW32_11
+recompiling module sirv_gnrl_dfflr_DW32_10
+recompiling module sirv_gnrl_dfflr_DW32_9
+recompiling module sirv_gnrl_dfflr_DW32_8
+recompiling module sirv_gnrl_dfflr_DW32_7
+recompiling module sirv_gnrl_dfflr_DW32_6
+recompiling module sirv_gnrl_dfflr_DW32_5
+recompiling module sirv_gnrl_dfflr_DW32_4
+recompiling module sirv_gnrl_dfflr_DW32_3
+recompiling module sirv_gnrl_dfflr_DW32_2
+recompiling module sirv_gnrl_dfflr_DW32_1
+recompiling module e203_exu_csr_DW01_inc_0
+recompiling module e203_exu_csr_DW01_inc_1
+recompiling module e203_exu_csr_DW01_inc_2
+recompiling module e203_exu_csr_DW01_inc_3
+recompiling module e203_exu_csr
+recompiling module e203_exu
+recompiling module sirv_gnrl_dfflr_DW1_25
+recompiling module sirv_gnrl_dfflr_DW32_0
+recompiling module sirv_gnrl_pipe_stage_CUT_READY0_DP1_DW44
+recompiling module e203_lsu
+recompiling module e203_biu
+recompiling module sirv_gnrl_icb_n2w_AW16_USR_W1_FIFO_OUTS_NUM1_FIFO_CUT_READY0_X_W32_Y_W64_1
+recompiling module sirv_gnrl_icb_arbt_AW16_DW64_USR_W1_ARBT_SCHEME0_FIFO_OUTS_NUM1_FIFO_CUT_READY0_ARBT_NUM2_ALLOW_0CYCL_RSP0_ARBT_PTR_W1
+recompiling module sirv_gnrl_dfflr_DW1_112
+recompiling module e203_itcm_ctrl
+recompiling module e203_dtcm_ctrl
+recompiling module e203_srams
+recompiling module sirv_gnrl_dffr_DW17
+recompiling module sirv_gnrl_dffr_DW6
+recompiling module sirv_LevelGateway_15
+recompiling module sirv_gnrl_dfflr_DW1_111
+recompiling module sirv_gnrl_dfflr_DW3_21
+recompiling module sirv_LevelGateway_14
+recompiling module sirv_gnrl_dfflr_DW1_110
+recompiling module sirv_gnrl_dfflr_DW3_20
+recompiling module sirv_LevelGateway_13
+recompiling module sirv_gnrl_dfflr_DW1_109
+recompiling module sirv_gnrl_dfflr_DW3_19
+recompiling module sirv_LevelGateway_12
+recompiling module sirv_gnrl_dfflr_DW1_108
+recompiling module sirv_gnrl_dfflr_DW3_18
+850 of 999 modules done
+recompiling module sirv_LevelGateway_11
+recompiling module sirv_gnrl_dfflr_DW1_107
+recompiling module sirv_gnrl_dfflr_DW3_17
+recompiling module sirv_LevelGateway_10
+recompiling module sirv_gnrl_dfflr_DW1_106
+recompiling module sirv_gnrl_dfflr_DW3_16
+recompiling module sirv_LevelGateway_9
+recompiling module sirv_gnrl_dfflr_DW1_105
+recompiling module sirv_gnrl_dfflr_DW3_15
+recompiling module sirv_LevelGateway_8
+recompiling module sirv_gnrl_dfflr_DW1_104
+recompiling module sirv_gnrl_dfflr_DW3_14
+recompiling module sirv_LevelGateway_7
+recompiling module sirv_gnrl_dfflr_DW1_103
+recompiling module sirv_gnrl_dfflr_DW3_13
+recompiling module sirv_LevelGateway_6
+recompiling module sirv_gnrl_dfflr_DW1_102
+recompiling module sirv_gnrl_dfflr_DW3_12
+recompiling module sirv_LevelGateway_5
+recompiling module sirv_gnrl_dfflr_DW1_101
+recompiling module sirv_gnrl_dfflr_DW3_11
+recompiling module sirv_LevelGateway_4
+recompiling module sirv_gnrl_dfflr_DW1_100
+recompiling module sirv_gnrl_dfflr_DW3_10
+recompiling module sirv_LevelGateway_3
+recompiling module sirv_gnrl_dfflr_DW1_99
+recompiling module sirv_gnrl_dfflr_DW3_9
+recompiling module sirv_LevelGateway_2
+recompiling module sirv_gnrl_dfflr_DW1_98
+recompiling module sirv_gnrl_dfflr_DW3_8
+recompiling module sirv_LevelGateway_1
+recompiling module sirv_gnrl_dfflr_DW1_97
+recompiling module sirv_gnrl_dfflr_DW3_7
+recompiling module sirv_LevelGateway_0
+recompiling module sirv_gnrl_dfflr_DW1_96
+recompiling module sirv_gnrl_dfflr_DW3_6
+recompiling module sirv_gnrl_dfflr_DW32_17
+recompiling module sirv_gnrl_dfflr_DW3_5
+recompiling module sirv_gnrl_pipe_stage_CUT_READY1_DP1_DW32
+recompiling module e203_subsys_plic
+recompiling module sirv_clint_DW01_inc_0
+recompiling module e203_subsys_clint
+recompiling module sirv_gnrl_pipe_stage_CUT_READY1_DP1_DW17
+recompiling module sirv_icb1to16_bus_2_1_32_32_1_1_10000000_15_10008000_12_10012000_12_10013000_12_10014000_12_10015000_12_10023000_12_10024000_12_10025000_12_10033000_12_10034000_12_10035000_12_11000000_24_10040000_12_10041000_12_10042000_3
+recompiling module sirv_qspi_media
+recompiling module sirv_qspi_flashmap
+recompiling module sirv_qspi_arbiter
+recompiling module sirv_flash_qspi_top
+recompiling module sirv_gnrl_cdc_tx_DW65_SYNC_DP2
+recompiling module sirv_gnrl_cdc_rx_DW33_SYNC_DP2
+900 of 999 modules done
+recompiling module sirv_gnrl_icb2apb_AW32_DW32_9
+recompiling module apb_gpio_APB_ADDR_WIDTH32_1
+recompiling module sirv_gnrl_icb2apb_AW32_DW32_8
+recompiling module apb_gpio_APB_ADDR_WIDTH32_0
+recompiling module sirv_gnrl_icb2apb_AW32_DW32_7
+recompiling module io_generic_fifo_DATA_WIDTH9_BUFFER_DEPTH16_2
+recompiling module io_generic_fifo_DATA_WIDTH8_BUFFER_DEPTH16_2
+recompiling module uart_interrupt_TX_FIFO_DEPTH16_RX_FIFO_DEPTH16_2
+recompiling module apb_uart_sv_APB_ADDR_WIDTH32_2
+recompiling module sirv_gnrl_icb2apb_AW32_DW32_6
+recompiling module io_generic_fifo_DATA_WIDTH9_BUFFER_DEPTH16_1
+recompiling module io_generic_fifo_DATA_WIDTH8_BUFFER_DEPTH16_1
+recompiling module uart_interrupt_TX_FIFO_DEPTH16_RX_FIFO_DEPTH16_1
+recompiling module apb_uart_sv_APB_ADDR_WIDTH32_1
+recompiling module sirv_gnrl_icb2apb_AW32_DW32_5
+recompiling module io_generic_fifo_DATA_WIDTH9_BUFFER_DEPTH16_0
+recompiling module io_generic_fifo_DATA_WIDTH8_BUFFER_DEPTH16_0
+recompiling module uart_interrupt_TX_FIFO_DEPTH16_RX_FIFO_DEPTH16_0
+recompiling module apb_uart_sv_APB_ADDR_WIDTH32_0
+recompiling module sirv_gnrl_icb2apb_AW32_DW32_4
+recompiling module spi_master_apb_if_BUFFER_DEPTH10_APB_ADDR_WIDTH32_1
+recompiling module spi_master_fifo_DATA_WIDTH32_BUFFER_DEPTH10_3
+recompiling module spi_master_fifo_DATA_WIDTH32_BUFFER_DEPTH10_2
+recompiling module spi_master_tx_1
+recompiling module apb_spi_master_APB_ADDR_WIDTH32_1
+recompiling module sirv_gnrl_icb2apb_AW32_DW32_3
+recompiling module spi_master_apb_if_BUFFER_DEPTH10_APB_ADDR_WIDTH32_0
+recompiling module spi_master_fifo_DATA_WIDTH32_BUFFER_DEPTH10_1
+recompiling module spi_master_fifo_DATA_WIDTH32_BUFFER_DEPTH10_0
+recompiling module spi_master_tx_0
+recompiling module apb_spi_master_APB_ADDR_WIDTH32_0
+recompiling module sirv_gnrl_icb2apb_AW32_DW32_2
+recompiling module apb_i2c_APB_ADDR_WIDTH32_1
+recompiling module sirv_gnrl_icb2apb_AW32_DW32_1
+recompiling module apb_i2c_APB_ADDR_WIDTH32_0
+recompiling module sirv_gnrl_icb2apb_AW32_DW32_0
+recompiling module adv_timer_apb_if_APB_ADDR_WIDTH32
+recompiling module e203_clkgate_11
+recompiling module timer_cntrl_3
+recompiling module comparator_15
+recompiling module comparator_14
+recompiling module comparator_13
+recompiling module comparator_12
+recompiling module e203_clkgate_10
+recompiling module timer_cntrl_2
+recompiling module comparator_11
+recompiling module comparator_10
+recompiling module comparator_9
+recompiling module comparator_8
+recompiling module timer_module_NUM_BITS16_N_EXTSIG48_2
+950 of 999 modules done
+recompiling module e203_clkgate_9
+recompiling module timer_cntrl_1
+recompiling module comparator_7
+recompiling module comparator_6
+recompiling module comparator_5
+recompiling module comparator_4
+recompiling module timer_module_NUM_BITS16_N_EXTSIG48_1
+recompiling module e203_clkgate_8
+recompiling module timer_cntrl_0
+recompiling module comparator_3
+recompiling module comparator_2
+recompiling module comparator_1
+recompiling module comparator_0
+recompiling module timer_module_NUM_BITS16_N_EXTSIG48_0
+recompiling module sirv_gnrl_icb2axi_AXI_FIFO_DP2_AXI_FIFO_CUT_READY1_AW32_FIFO_OUTS_NUM1_FIFO_CUT_READY1_DW32
+recompiling module sirv_expl_axi_slv_AW32_DW32_1
+recompiling module sirv_hclkgen_regs
+recompiling module e203_subsys_perips
+recompiling module sirv_mrom_top_AW12_DW32_DP1024
+recompiling module sirv_gnrl_icb2axi_AXI_FIFO_DP2_AXI_FIFO_CUT_READY1_AW32_FIFO_OUTS_NUM4_FIFO_CUT_READY1_DW32
+recompiling module sirv_expl_axi_slv_AW32_DW32_0
+recompiling module e203_subsys_mems
+recompiling module e203_subsys_main
+recompiling module sirv_ResetCatchAndSync_2_0
+recompiling module sirv_ResetCatchAndSync_3
+recompiling module sirv_jtaggpioport
+recompiling module sirv_jtag_dtm_ASYNC_FF_LEVELS2
+recompiling module sirv_gnrl_cdc_tx_DW36_SYNC_DP2
+recompiling module sirv_gnrl_cdc_rx_DW41_SYNC_DP2
+recompiling module sirv_gnrl_dfflr_DW1_160
+recompiling module sirv_gnrl_dfflr_DW1_159
+recompiling module sirv_gnrl_dfflr_DW1_158
+recompiling module sirv_debug_rom
+recompiling module sirv_gnrl_dfflr_DW1_157
+recompiling module sirv_gnrl_dfflr_DW1_156
+recompiling module sirv_aon_lclkgen_regs
+recompiling module sirv_rtc
+recompiling module sirv_pmu_core_DW01_inc_0
+recompiling module sirv_AsyncResetRegVec_1
+recompiling module sirv_pmu
+recompiling module sirv_wdog
+recompiling module sirv_queue
+recompiling module sirv_ResetCatchAndSync_1
+recompiling module sirv_ResetCatchAndSync_0
+recompiling module sirv_DeglitchShiftRegister_1
+recompiling module sirv_DeglitchShiftRegister_0
+recompiling module sirv_aon_wrapper
+recompiling module sirv_aon_top
+recompiling module tb_top
+All of 999 modules done
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -no-pie  -Wl,--no-as-needed    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -L/usr/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -Wl,--no-as-needed -rdynamic  -Wl,-rpath=/home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib -L/home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib   objs/a/amcQw_d.o   _3812_archive_1.so objs/udps/U7Vwg.o objs/udps/exIG1.o objs/udps/h8xSc.o objs/udps/uYEPC.o objs/udps/CjLsY.o objs/udps/zL3We.o objs/udps/IEZrF.o objs/udps/vCfas.o objs/udps/gSqMj.o  SIM_l.o       rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          -lzerosoft_rt_stubs -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcs_tls.o   -Wl,-whole-archive -lvcsucli -Wl,-no-whole-archive        _vcs_pli_stub_.o   /home/huzi/Env/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o /home/huzi/Env/verdi/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date

@@ -1,0 +1,34 @@
+00:44:28    16 -->                                                             [tcl] ucliGUI::connect -toolargs -ucligui -toolexe simv +neg_tchk +maxdelays +notimingcheck +nospecify +vc +v2k -pid 4001 -toolin /tmp/vcs_20241231084427_4000_huzi..stdin -toolout /tmp/vcs_20241231084427_4000_huzi..stdout  
+00:44:28    17 -->                                                                 [tcl] set ucliGUI::state
+00:44:28    18 -->                                                                     [tcl] gui_update_simulator_buttons
+00:44:29    19 -->                                                                         [tcl] set ucliGUI::state
+00:44:29    20 -->                                                                             [tcl] ucliCore::getToolPID
+00:44:29    21 -->                                                                                 [tcl] synopsys::env hasTB
+00:44:29    22 -->                                                                                     [tcl] trigger_hier_stack_context_switch 0
+00:44:29    23 -->                                                                                         [tcl] synUtils::setDVEInitPhase 1
+00:44:29    24 -->                                                                                             [tcl] gui_get_env SIMSETUP::SIMVPD
+00:44:29    25 --> ...  [tcl] synopsys::dump -type VPD -file /home/huzi/Soc/risc-v/20241209_V1.0_group9/post_sim/inter.vpd -locking
+00:44:29    26 --> ...      [tcl] synopsys::dump -autoflush on -fid VPD0
+00:44:29    27 --> ...          [tcl] set ::dve_fid VPD0
+00:44:29    28 --> ...              [tcl] synUtils::setDVEInitPhase 0
+00:44:29    29 --> ...                  [tcl] ucliCore::getToolPID
+00:44:29    30 --> ...                      [tcl] synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpxJGMsc
+00:44:29    31 --> ...                          [tcl] synUtils::sendTool -active {_icl_start_rpc -version "O-2018.09-SP2_Full64" -sync_file /tmp/vcs_dve_rpc.huzi.4001}
+00:44:29    32 --> ...                              [tcl] synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.huzi.4001}
+00:44:29    33 --> ...                                  [tcl] dveMisc::vbusExpand PANA1AP
+00:44:29    34 --> ...                                      [tcl] config endofsim noexit
+00:44:29    35 --> ...                                          [tcl] config onfail enable all
+00:44:29    36 --> ...                                              [tcl] config syscaddplainmembers
+00:44:29    37 --> ...                                                  [tcl] config syscaddsourcenames
+00:44:29    38 --> ...                                                      [tcl] config syscaddstructtypes
+00:44:29    39 --> ...                                                          [tcl] synopsys::listing -disable
+00:44:34    40 --> ...                                                              [tcl] synopsys::run
+00:44:34    41 --> ...                                                                  [tcl] set ucliGUI::state
+00:44:34    42 --> ...                                                                      [tcl] gui_update_simulator_buttons
+00:44:34    43 --> ...                                                                          [tcl] set ucliGUI::state
+00:44:34    44 --> ...                                                                              [tcl] gui_update_simulator_buttons
+00:44:36    45 --> ...                                                                                  [tcl] set ucliGUI::state
+00:44:36    46 --> ...                                                                                      [tcl] set ucliGUI::state
+00:44:36    47 --> ...                                                                                          [tcl] catch {senv activeDomain} dveMisc::result 
+00:44:36    48 --> ...                                                                                              [tcl] set dveMisc::result
+00:44:36    49 --> ...                                                                                                  [tcl] gui_update_simulator_buttons
